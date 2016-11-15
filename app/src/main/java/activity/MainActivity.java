@@ -83,24 +83,29 @@ public class MainActivity extends ActionBarActivity implements FragmentDrawer.Fr
             case 0:
                 fragment = new HomeFragment();
                 title = getString(R.string.title_home);
+                Toast.makeText(getApplicationContext(), "Anda berada di tampilan home", Toast.LENGTH_SHORT).show();
                 break;
             case 1:
                 fragment = new TariFragment();
                 title = getString(R.string.title_tari);
+                Toast.makeText(getApplicationContext(), "Anda berada di tampilan tari daerah", Toast.LENGTH_SHORT).show();
                 break;
             case 2:
                 fragment = new LaguFragment();
                 title = getString(R.string.title_lagu);
+                Toast.makeText(getApplicationContext(), "Anda berada di tampilan lagu daerah", Toast.LENGTH_SHORT).show();
                 break;
 
             case 3:
                 fragment = new PakaianFragment();
                 title = getString(R.string.title_pakaian);
+                Toast.makeText(getApplicationContext(), "Anda berada di tampilan pakaian adat", Toast.LENGTH_SHORT).show();
                 break;
 
             case 4:
                 fragment = new RumahFragment();
                 title = getString(R.string.title_rumah);
+                Toast.makeText(getApplicationContext(), "Anda berada di tampilan rumah adat", Toast.LENGTH_SHORT).show();
                 break;
             case 5:
                 title = getString(R.string.title_exit);

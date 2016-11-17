@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/fhome"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:paddingRight="10dp">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -18,37 +21,43 @@
 
     <ImageButton
         android:id="@+id/imageButton"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/imageView2"
         android:layout_centerInParent="true"
-        android:layout_marginLeft="25dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="23dp"
-        android:src="@drawable/rumah_adat" />
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/rumah_adat"
+        app:layout_heightPercent="30%"
+        app:layout_widthPercent="43%" />
 
     <ImageButton
         android:id="@+id/imageButton2"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
         android:layout_alignTop="@+id/imageButton"
-        android:layout_marginLeft="24dp"
-        android:layout_marginStart="24dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
         android:layout_toEndOf="@+id/imageButton"
         android:layout_toRightOf="@+id/imageButton"
-        android:src="@drawable/tari" />
+        android:src="@drawable/tari"
+        app:layout_heightPercent="30%"
+        app:layout_widthPercent="43%" />
 
     <ImageButton
         android:id="@+id/imageButton3"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_below="@+id/imageButton"
-        android:layout_marginTop="53dp"
+        android:layout_marginTop="33dp"
         android:layout_toLeftOf="@+id/imageButton2"
         android:layout_toStartOf="@+id/imageButton2"
-        android:src="@drawable/pakaian" />
+        android:src="@drawable/pakaian"
+        app:layout_heightPercent="30%"
+        app:layout_widthPercent="43%" />
 
     <ImageButton
         android:id="@+id/imageButton4"
@@ -57,7 +66,9 @@
         android:layout_alignLeft="@+id/imageButton2"
         android:layout_alignStart="@+id/imageButton2"
         android:layout_alignTop="@+id/imageButton3"
-        android:src="@drawable/logo" />
+        android:src="@drawable/lagu"
+        app:layout_heightPercent="30%"
+        app:layout_widthPercent="43%" />
 
 
-</RelativeLayout>
+</android.support.percent.PercentRelativeLayout>

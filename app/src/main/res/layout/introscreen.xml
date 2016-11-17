@@ -54,7 +54,7 @@
             android:onClick="dismisWelcomeMessageBox"
             android:paddingLeft="30dp"
             android:paddingRight="30dp"
-            android:text="SKIP"
+            android:text="LEWATI"
             android:textColor="#fff" />
 
     </RelativeLayout>

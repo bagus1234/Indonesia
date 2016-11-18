@@ -40,6 +40,8 @@ public class MainActivity extends ActionBarActivity implements FragmentDrawer.Fr
 
         // display the first navigation drawer view on app launch
         displayView(0);
+
+
     }
 
 

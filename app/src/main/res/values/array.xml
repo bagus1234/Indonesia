@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2016 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+
+<resources>
+    <string-array name="kota">
+        <item>Aceh</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Barat</item>
+        <item>Riau</item>
+        <item>Kepulauan Riau</item>
+        <item>Jambi</item>
+        <item>Sumatera Selatan</item>
+        <item>Bangka Belitung</item>
+        <item>Bengkulu</item>
+        <item>Lampung</item>
+        <item>DKI Jakarta</item>
+        <item>Jawa Barat</item>
+        <item>Banten</item>
+        <item>Jawa Tengah</item>
+        <item>Daerah Istimewa Yogyakarta</item>
+        <item>Jawa Timur</item>
+        <item>Bali</item>
+        <item>Nusa Tenggara Barat</item>
+        <item>Nusa Tenggara Timur</item>
+        <item>Kalimantan Barat</item>
+        <item>Kalimantan Tengah</item>
+        <item>Kalimantan Selatan</item>
+        <item>Kalimantan Timur</item>
+        <item>Sulawesi Utara</item>
+        <item>Sulawesi Barat</item>
+        <item>Sulawesi Tengah</item>
+        <item>Sulawesi Tenggara</item>
+        <item>Sulawesi Selatan</item>
+        <item>Gorontalo</item>
+        <item>Maluku</item>
+        <item>Maluku Utara</item>
+        <item>Papua Barat</item>
+        <item>Papua</item>
+    </string-array>
+    <string-array name="trailer_des">
+        <item>Di Aceh terdapat tari tradisional bernama Tari Saman </item>
+        <item>Sumatera Utara memiliki tari tradisional bernama Tari Tor-Tor</item>
+        <item>Sumatera Barat memiliki tari tradisional bernama Tari Tor-Tor</item>
+        <item>Riau memiliki tari tradisional bernama Tari Tor-Tor</item>
+        <item>Kepulauan Riau memiliki tari tradisional bernama Tari Tor-Tor</item>
+        <item>Jambi memiliki tari tradisional bernama Tari Tor-Tor</item>
+        <item>Sumatera Selatan memiliki tari tradisional bernama Tari Tor-Tor</item>
+        <item>Bangka Belitung memiliki tari tradisional bernama Tari Tor-Tor</item>
+        <item>Bengkulu memiliki tari tradisional bernama Tari Tor-Tor</item>
+        <item>Lampung memiliki tari tradisional bernama Tari Tor-Tor</item>
+        <item>DKI Jakarta memiliki tari tradisional bernama Tari Tor-Tor</item>
+        <item>Jawa Barat memiliki tari tradisional bernama Tari Tor-Tor</item>
+        <item>Banten memiliki tari tradisional bernama Tari Tor-Tor</item>
+        <item>Jawa Tengah memiliki tari tradisional bernama Tari Tor-Tor</item>
+        <item>Daerah Istimewa Yogyakarta memiliki tari tradisional bernama Tari Tor-Tor</item>
+        <item>Jawa Timur memiliki tari tradisional bernama Tari Tor-Tor</item>
+        <item>Bali memiliki tari tradisional bernama Tari Tor-Tor</item>
+        <item>Nusa Tenggara Barat memiliki tari tradisional bernama Tari Tor-Tor</item>
+        <item>Nusa Tenggara Timur memiliki tari tradisional bernama Tari Tor-Tor</item>
+        <item>Kalimantan Barat memiliki tari tradisional bernama Tari Tor-Tor</item>
+        <item>Kalimantan Tengah memiliki tari tradisional bernama Tari Tor-Tor</item>
+        <item>Kalimantan Selatan memiliki tari tradisional bernama Tari Tor-Tor</item>
+        <item>Kalimantan Timur memiliki tari tradisional bernama Tari Tor-Tor</item>
+        <item>Sulawesi Utara memiliki tari tradisional bernama Tari Tor-Tor</item>
+        <item>Sulawesi Barat memiliki tari tradisional bernama Tari Tor-Tor</item>
+        <item>Sulawesi Tengah memiliki tari tradisional bernama Tari Tor-Tor</item>
+        <item>Sulawesi Tenggara memiliki tari tradisional bernama Tari Tor-Tor</item>
+        <item>Sulawesi Selatan memiliki tari tradisional bernama Tari Tor-Tor</item>
+        <item>Gorontalo memiliki tari tradisional bernama Tari Tor-Tor</item>
+        <item>Maluku memiliki tari tradisional bernama Tari Tor-Tor</item>
+        <item>Maluku Utara memiliki tari tradisional bernama Tari Tor-Tor</item>
+        <item>Papua Barat memiliki tari tradisional bernama Tari Tor-Tor</item>
+        <item>Papua memiliki tari tradisional bernama Tari Tor-Tor</item>
+    </string-array>
+    <string-array name="deskripsi">
+        <item>Tari Saman adalah sebuah tarian Suku Gayo yang biasa ditampilkan untuk merayakan peristiwa-peristiwa penting dalam adat. Syair dalam tarian saman mempergunakan Bahasa Gayo. Selain itu biasanya tarian ini juga ditampilkan untuk merayakan kelahiran Nabi Muhammad SAW.</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Barat</item>
+        <item>Riau</item>
+        <item>Kepulauan Riau</item>
+        <item>Jambi</item>
+        <item>Sumatera Selatan</item>
+        <item>Bangka Belitung</item>
+        <item>Bengkulu</item>
+        <item>Lampung</item>
+        <item>DKI Jakarta</item>
+        <item>Jawa Barat</item>
+        <item>Banten</item>
+        <item>Jawa Tengah</item>
+        <item>Daerah Istimewa Yogyakarta</item>
+        <item>Jawa Timur</item>
+        <item>Bali</item>
+        <item>Nusa Tenggara Barat</item>
+        <item>Nusa Tenggara Timur</item>
+        <item>Kalimantan Barat</item>
+        <item>Kalimantan Tengah</item>
+        <item>Kalimantan Selatan</item>
+        <item>Kalimantan Timur</item>
+        <item>Sulawesi Utara</item>
+        <item>Sulawesi Barat</item>
+        <item>Sulawesi Tengah</item>
+        <item>Sulawesi Tenggara</item>
+        <item>Sulawesi Selatan</item>
+        <item>Gorontalo</item>
+        <item>Maluku</item>
+        <item>Maluku Utara</item>
+        <item>Papua Barat</item>
+        <item>Papua</item>
+    </string-array>
+    <array name="gambar">
+        <item>@drawable/aceh</item>
+        <item>@drawable/sumut</item>
+        <item>@drawable/sumbar</item>
+        <item>@drawable/riau</item>
+        <item>@drawable/keriau</item>
+        <item>@drawable/jambi</item>
+        <item>@drawable/sumsel</item>
+        <item>@drawable/bb</item>
+        <item>@drawable/bengkulu</item>
+        <item>@drawable/lampung</item>
+        <item>@drawable/jkt</item>
+        <item>@drawable/jabar</item>
+        <item>@drawable/jateng</item>
+        <item>@drawable/jateng</item>
+        <item>@drawable/diy</item>
+        <item>@drawable/jatim</item>
+        <item>@drawable/bali</item>
+        <item>@drawable/ntb</item>
+        <item>@drawable/ntb</item>
+        <item>@drawable/kalbar</item>
+        <item>@drawable/kalteng</item>
+        <item>@drawable/kalsel</item>
+        <item>@drawable/kaltim</item>
+        <item>@drawable/sulut</item>
+        <item>@drawable/sulbar</item>
+        <item>@drawable/sulteng</item>
+        <item>@drawable/sultengg</item>
+        <item>@drawable/sulsel</item>
+        <item>@drawable/gorontalo</item>
+        <item>@drawable/maluku</item>
+        <item>@drawable/malut</item>
+        <item>@drawable/pabar</item>
+        <item>@drawable/papua</item>
+    </array>
+</resources>

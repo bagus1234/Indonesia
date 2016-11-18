@@ -85,7 +85,7 @@ public class MainActivity extends ActionBarActivity implements FragmentDrawer.Fr
             case 0:
                 fragment = new HomeFragment();
                 title = getString(R.string.title_home);
-                Toast.makeText(getApplicationContext(), "Anda berada di tampilan home", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Anda berada di tampilan Beranda", Toast.LENGTH_SHORT).show();
                 break;
             case 1:
                 fragment = new TariFragment();

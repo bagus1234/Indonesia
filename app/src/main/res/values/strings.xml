@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Petunjuk Si Lahang</string>
-    <string name="action_settings">Pengaturan</string>
+    <string name="action_settings">Tentang</string>
     <string name="action_search">Search</string>
     <string name="drawer_open">Open</string>
     <string name="drawer_close">Close</string>
@@ -20,12 +20,12 @@
         <item>@string/nav_item_rumah</item>
         <item>@string/nav_item_exit</item>
     </string-array>
-    <string name="title_home">Home</string>
+    <string name="title_home">Beranda</string>
     <string name="title_tari">Tari</string>
     <string name="title_lagu">Lagu</string>
     <string name="title_pakaian">Pakaian</string>
     <string name="title_rumah">Rumah Adat</string>
-    <string name="title_exit">Exit</string>
+    <string name="title_exit">Keluar</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

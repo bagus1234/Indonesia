@@ -1,16 +1,16 @@
 <resources>
-    <string name="app_name">Indonesia</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">Petunjuk Si Lahang</string>
+    <string name="action_settings">Pengaturan</string>
     <string name="action_search">Search</string>
     <string name="drawer_open">Open</string>
     <string name="drawer_close">Close</string>
 
-    <string name="nav_item_home">Home</string>
+    <string name="nav_item_home">Beranda</string>
     <string name="nav_item_tari">Tari</string>
     <string name="nav_item_lagu">Lagu</string>
     <string name="nav_item_pakaian">Pakaian</string>
     <string name="nav_item_rumah">Rumah Adat</string>
-    <string name="nav_item_exit">Exit</string>
+    <string name="nav_item_exit">Keluar</string>
     <!-- navigation drawer item labels  -->
     <string-array name="nav_drawer_labels">
         <item>@string/nav_item_home</item>

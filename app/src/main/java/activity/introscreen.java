@@ -32,6 +32,7 @@ public class introscreen extends AppCompatActivity {
         videoView.setVideoURI(Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.hahaha));
         videoView.start();
 
+
         btn5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0) {
@@ -41,6 +42,7 @@ public class introscreen extends AppCompatActivity {
         });
 
         introMessage = (RelativeLayout) findViewById(R.id.welcome_pesan);
+
 
     }
 

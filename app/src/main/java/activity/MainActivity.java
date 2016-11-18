@@ -112,14 +112,14 @@ public class MainActivity extends ActionBarActivity implements FragmentDrawer.Fr
             case 5:
                 title = getString(R.string.title_exit);
                 AlertDialog.Builder builder = new AlertDialog.Builder(this);
-                builder.setMessage("Are you sure you want to exit?")
+                builder.setMessage("Apakah Anda Yakin Ingin Keluar?")
                         .setCancelable(false)
-                        .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                        .setPositiveButton("Ya", new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int id) {
                                 finish();
                             }
                         })
-                        .setNegativeButton("No", new DialogInterface.OnClickListener() {
+                        .setNegativeButton("Tidak", new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int id) {
                                 dialog.cancel();
                             }
@@ -139,7 +139,11 @@ public class MainActivity extends ActionBarActivity implements FragmentDrawer.Fr
             fragmentTransaction.commit();
 
             // set the toolbar title
-            getSupportActionBar().setTitle(title);
+            setActTitle(title);
         }
+    }
+
+    public void setActTitle(String title) {
+        getSupportActionBar().setTitle(title);
     }
 }

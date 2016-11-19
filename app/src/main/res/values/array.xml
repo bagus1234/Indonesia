@@ -425,7 +425,7 @@
         <item>Papua</item>
     </string-array>
     <array name="gambar3">
-        <item>@drawable/aceh3</item>
+        <item>@drawable/aceh4</item>
         <item>@drawable/sumut3</item>
         <item>@drawable/sumbar3</item>
         <item>@drawable/riau3</item>
@@ -454,7 +454,7 @@
         <item>@drawable/sulteng3</item>
         <item>@drawable/sultenggara3</item>
         <item>@drawable/sulses3</item>
-        <item>@drawable/gorontalo3</item>
+        <item>@drawable/gor3</item>
         <item>@drawable/maluku3</item>
         <item>@drawable/malut3</item>
         <item>@drawable/papubar3</item>

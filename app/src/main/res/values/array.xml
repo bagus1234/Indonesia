@@ -425,32 +425,32 @@
         <item>Papua</item>
     </string-array>
     <array name="gambar3">
-        <item>@drawable/aceh2</item>
-        <item>@drawable/sumut2</item>
-        <item>@drawable/sumbar</item>
-        <item>@drawable/riau2</item>
-        <item>@drawable/kepriau2</item>
-        <item>@drawable/jambi2</item>
-        <item>@drawable/sumsel2</item>
-        <item>@drawable/sulteng</item>
-        <item>@drawable/bengkulu2</item>
-        <item>@drawable/lampung2</item>
-        <item>@drawable/jkt2</item>
-        <item>@drawable/jabar2</item>
-        <item>@drawable/banten2</item>
-        <item>@drawable/jateng2</item>
-        <item>@drawable/diy</item>
-        <item>@drawable/jatim2</item>
-        <item>@drawable/bali2</item>
-        <item>@drawable/ntb2</item>
-        <item>@drawable/ntt2</item>
-        <item>@drawable/kalut</item>
-        <item>@drawable/kalbar2</item>
-        <item>@drawable/kalteng</item>
-        <item>@drawable/kalsel2</item>
-        <item>@drawable/kaltim2</item>
-        <item>@drawable/sulut2</item>
-        <item>@drawable/sulbar2</item>
+        <item>@drawable/aceh3</item>
+        <item>@drawable/sumut3</item>
+        <item>@drawable/sumbar3</item>
+        <item>@drawable/riau3</item>
+        <item>@drawable/kepriau3</item>
+        <item>@drawable/jambi3</item>
+        <item>@drawable/sumsel3</item>
+        <item>@drawable/bangbel3</item>
+        <item>@drawable/bengkulu3</item>
+        <item>@drawable/lampung3</item>
+        <item>@drawable/jkt3</item>
+        <item>@drawable/jabar3</item>
+        <item>@drawable/banten3</item>
+        <item>@drawable/jateng3</item>
+        <item>@drawable/jogja3</item>
+        <item>@drawable/jatim3</item>
+        <item>@drawable/bali3</item>
+        <item>@drawable/ntb3</item>
+        <item>@drawable/ntt3</item>
+        <item>@drawable/kalut3</item>
+        <item>@drawable/kalbar3</item>
+        <item>@drawable/kalteng3</item>
+        <item>@drawable/kalsel3</item>
+        <item>@drawable/kaltim3</item>
+        <item>@drawable/sulut3</item>
+        <item>@drawable/sulbar3</item>
         <item>@drawable/sulteng2</item>
         <item>@drawable/sulteng2</item>
         <item>@drawable/sulteng</item>

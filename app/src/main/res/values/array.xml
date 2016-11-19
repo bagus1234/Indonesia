@@ -425,7 +425,7 @@
         <item>Papua</item>
     </string-array>
     <array name="gambar3">
-        <item>@drawable/aceh3</item>
+        <item>@drawable/aceh4</item>
         <item>@drawable/sumut3</item>
         <item>@drawable/sumbar3</item>
         <item>@drawable/riau3</item>
@@ -451,163 +451,16 @@
         <item>@drawable/kaltim3</item>
         <item>@drawable/sulut3</item>
         <item>@drawable/sulbar3</item>
-        <item>@drawable/sulteng2</item>
-        <item>@drawable/sulteng2</item>
-        <item>@drawable/sulteng</item>
-        <item>@drawable/gorontalo2</item>
-        <item>@drawable/maluku</item>
-        <item>@drawable/malut</item>
-        <item>@drawable/papua</item>
-        <item>@drawable/papua2</item>
+        <item>@drawable/sulteng3</item>
+        <item>@drawable/sultenggara3</item>
+        <item>@drawable/sulses3</item>
+        <item>@drawable/gor3</item>
+        <item>@drawable/maluku3</item>
+        <item>@drawable/malut3</item>
+        <item>@drawable/papubar3</item>
+        <item>@drawable/papua3</item>
     </array>
 
-
-    <!--    PAKAIAN ADAT-->
-
-    <string-array name="kota2">
-        <item>Aceh</item>
-        <item>Sumatera Utara</item>
-        <item>Sumatera Barat</item>
-        <item>Riau</item>
-        <item>Kepulauan Riau</item>
-        <item>Jambi</item>
-        <item>Sumatera Selatan</item>
-        <item>Bangka Belitung</item>
-        <item>Bengkulu</item>
-        <item>Lampung</item>
-        <item>DKI Jakarta</item>
-        <item>Jawa Barat</item>
-        <item>Banten</item>
-        <item>Jawa Tengah</item>
-        <item>Daerah Istimewa Yogyakarta</item>
-        <item>Jawa Timur</item>
-        <item>Bali</item>
-        <item>Nusa Tenggara Barat</item>
-        <item>Nusa Tenggara Timur</item>
-        <item>Kalimantan Barat</item>
-        <item>Kalimantan Tengah</item>
-        <item>Kalimantan Selatan</item>
-        <item>Kalimantan Timur</item>
-        <item>Sulawesi Utara</item>
-        <item>Sulawesi Barat</item>
-        <item>Sulawesi Tengah</item>
-        <item>Sulawesi Tenggara</item>
-        <item>Sulawesi Selatan</item>
-        <item>Gorontalo</item>
-        <item>Maluku</item>
-        <item>Maluku Utara</item>
-        <item>Papua Barat</item>
-        <item>Papua</item>
-    </string-array>
-
-
-    <string-array name="trailer_des2">
-        <item>Lagu Daerah Bungong Jeumpa</item>
-        <item>Lagu Daerah Butet</item>
-        <item>Lagu Daerah Ayam Den Lapeh</item>
-        <item>Lagu Daerah Soleram</item>
-        <item>Lagu Daerah Pulau Bintan</item>
-        <item>Lagu Daerah Injit-injit Semut</item>
-        <item>Lagu Daerah</item>
-        <item>Lagu Daerah </item>
-        <item>Lagu Daerah Alam Wisata Pulau Bangka</item>
-        <item>Lagu Daerah Sungai Suci</item>
-        <item>Lagu Daerah Bumi Lampung</item>
-        <item>Lagu Daerah Bubuy Bulan</item>
-        <item>Lagu Daerah</item>
-        <item>Lagu Daerah Pacul</item>
-        <item>Lagu Daerah Suwe Ora Jamu</item>
-        <item>Lagu Daerah Rek Ayo rek</item>
-        <item>Lagu Daerah</item>
-        <item>Lagu Daerah</item>
-        <item>Lagu Daerah</item>
-        <item>Lagu Daerah</item>
-        <item>Lagu Daerah</item>
-        <item>Lagu Daerah Tumpi Wayu</item>
-        <item>Lagu Daerah Ampar-ampar Pisang</item>
-        <item>Lagu Daerah</item>
-        <item>Lagu Daerah Esa Mokan</item>
-        <item>Lagu Daerah</item>
-        <item>Lagu Daerah</item>
-        <item>Lagu Daerah</item>
-        <item>Lagu Daerah</item>
-        <item>Lagu Daerah</item>
-        <item>Lagu Daerah Burung Tantina</item>
-        <item>Lagu Daerah Apuse</item>
-
-
-    </string-array>
-    <string-array name="deskripsi2">
-        <item>Aceh</item>
-        <item>Sumatera Utara</item>
-        <item>Sumatera Barat</item>
-        <item>Riau</item>
-        <item>Kepulauan Riau</item>
-        <item>Jambi</item>
-        <item>Sumatera Selatan</item>
-        <item>Bangka Belitung</item>
-        <item>Bengkulu</item>
-        <item>Lampung</item>
-        <item>DKI Jakarta</item>
-        <item>Jawa Barat</item>
-        <item>Banten</item>
-        <item>Jawa Tengah</item>
-        <item>Daerah Istimewa Yogyakarta</item>
-        <item>Jawa Timur</item>
-        <item>Bali</item>
-        <item>Nusa Tenggara Barat</item>
-        <item>Nusa Tenggara Timur</item>
-        <item>Kalimantan Barat</item>
-        <item>Kalimantan Tengah</item>
-        <item>Kalimantan Selatan</item>
-        <item>Kalimantan Timur</item>
-        <item>Sulawesi Utara</item>
-        <item>Sulawesi Barat</item>
-        <item>Sulawesi Tengah</item>
-        <item>Sulawesi Tenggara</item>
-        <item>Sulawesi Selatan</item>
-        <item>Gorontalo</item>
-        <item>Maluku</item>
-        <item>Maluku Utara</item>
-        <item>Papua Barat</item>
-        <item>Papua</item>
-    </string-array>
-    <array name="gambar2">
-        <item>@drawable/aceh2</item>
-        <item>@drawable/sumut2</item>
-        <item>@drawable/sumbar</item>
-        <item>@drawable/riau2</item>
-        <item>@drawable/kepriau2</item>
-        <item>@drawable/jambi2</item>
-        <item>@drawable/sumsel2</item>
-        <item>@drawable/bangkabelitung2</item>
-        <item>@drawable/bengkulu2</item>
-        <item>@drawable/lampung2</item>
-        <item>@drawable/jkt2</item>
-        <item>@drawable/jabar2</item>
-        <item>@drawable/jateng2</item>
-        <item>@drawable/jateng2</item>
-        <item>@drawable/yogyakarta2</item>
-        <item>@drawable/jatim2</item>
-        <item>@drawable/bali2</item>
-        <item>@drawable/ntb2</item>
-        <item>@drawable/ntb2</item>
-        <item>@drawable/kalutara2</item>
-        <item>@drawable/kalbar2</item>
-        <item>@drawable/kalmanteng2</item>
-        <item>@drawable/kalsel2</item>
-        <item>@drawable/kaltim</item>
-        <item>@drawable/sulut2</item>
-        <item>@drawable/sulbar2</item>
-        <item>@drawable/sulteng2</item>
-        <item>@drawable/sulteng2</item>
-        <item>@drawable/sulsel2</item>
-        <item>@drawable/gorontalo2</item>
-        <item>@drawable/malukuutara2</item>
-        <item>@drawable/malukuutara2</item>
-        <item>@drawable/papuabarat2</item>
-        <item>@drawable/papua2</item>
-    </array>
 
 
 </resources>

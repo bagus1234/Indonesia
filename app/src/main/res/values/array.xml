@@ -160,7 +160,6 @@
         <item>@drawable/maluku</item>
         <item>@drawable/malut</item>
         <item>@drawable/pabar</item>
-        <item>@drawable/papuabarat</item>
         <item>@drawable/papua</item>
     </array>
 
@@ -296,6 +295,7 @@
         <item>@drawable/bali2</item>
         <item>@drawable/ntb2</item>
         <item>@drawable/ntt2</item>
+        <item>@drawable/kalutara2</item>
         <item>@drawable/kalutara2</item>
         <item>@drawable/kalbar2</item>
         <item>@drawable/kalmanteng2</item>

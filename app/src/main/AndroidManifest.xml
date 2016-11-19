@@ -8,6 +8,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/MyMaterialTheme">
+
         <activity
             android:name="activity.introscreen"
             android:noHistory="true">

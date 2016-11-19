@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 import id.sch.smktelkom_mlg.project.xiirpl207172737.indonesia.R;
 
@@ -20,7 +21,6 @@ import id.sch.smktelkom_mlg.project.xiirpl207172737.indonesia.R;
 public class HomeFragment extends Fragment implements View.OnClickListener {
 
     Button btnHome;
-
     public HomeFragment() {
         // Required empty public constructor
 
@@ -38,7 +38,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_home, container, false);
 
-
+        ((MainActivity) getActivity()).isOnMenu = true;
         ImageButton btn1 = (ImageButton) rootView.findViewById(R.id.imageButton);
         ImageButton btn2 = (ImageButton) rootView.findViewById(R.id.imageButton2);
         ImageButton btn3 = (ImageButton) rootView.findViewById(R.id.imageButton3);
@@ -47,8 +47,13 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         btn2.setOnClickListener(this);
         btn3.setOnClickListener(this);
         btn4.setOnClickListener(this);
-        // Inflate the layout for this fragment
+
+
         return rootView;
+    }
+
+    private void isidata() {
+
     }
 
     public void onClick(View v) {
@@ -57,30 +62,34 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         String title = null;
         FragmentManager fragmentManager = getFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        Activity activity = getActivity();
 
+        ((MainActivity) getActivity()).isOnMenu = false;
         switch (v.getId()) {
 
             case R.id.imageButton:
                 fragment = new RumahFragment();
                 title = getString(R.string.title_rumah);
+                Toast.makeText(activity, "Anda berada di tampilan rumah adat", Toast.LENGTH_SHORT).show();
                 break;
 
             case R.id.imageButton2:
                 fragment = new TariFragment();
                 title = getString(R.string.title_tari);
+                Toast.makeText(activity, "Anda berada di tampilan tari daerah", Toast.LENGTH_SHORT).show();
                 break;
 
             case R.id.imageButton3:
                 fragment = new PakaianFragment();
                 title = getString(R.string.title_pakaian);
+                Toast.makeText(activity, "Anda berada di tampilan pakaian adat", Toast.LENGTH_SHORT).show();
                 break;
 
             case R.id.imageButton4:
                 fragment = new LaguFragment();
                 title = getString(R.string.title_lagu);
+                Toast.makeText(activity, "Anda berada di tampilan lagu daerah", Toast.LENGTH_SHORT).show();
                 break;
-
-
         }
 
 

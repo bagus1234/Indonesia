@@ -25,14 +25,14 @@ public class RumahAdapter extends RecyclerView.Adapter<RumahAdapter.ViewHolder> 
     }
 
     @Override
-    public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_listtari, parent, false);
+    public RumahAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_listrumah, parent, false);
         ViewHolder vh = new ViewHolder(v);
         return vh;
     }
 
     @Override
-    public void onBindViewHolder(ViewHolder holder, int position) {
+    public void onBindViewHolder(RumahAdapter.ViewHolder holder, int position) {
         Rumah rumah = rumahList.get(position);
         holder.tvJudul.setText(rumah.judul);
         holder.tvDeskripsi.setText(rumah.deskripsi);
@@ -45,7 +45,6 @@ public class RumahAdapter extends RecyclerView.Adapter<RumahAdapter.ViewHolder> 
             return rumahList.size();
         return 0;
     }
-
 
     public class ViewHolder extends RecyclerView.ViewHolder {
         ImageView ivFoto;

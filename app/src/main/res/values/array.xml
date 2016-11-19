@@ -160,7 +160,6 @@
         <item>@drawable/maluku</item>
         <item>@drawable/malut</item>
         <item>@drawable/pabar</item>
-        <item>@drawable/papuabarat</item>
         <item>@drawable/papua</item>
     </array>
 
@@ -346,7 +345,7 @@
         <item>Sulawesi Tenggara</item>
         <item>Sulawesi Selatan</item>
         <item>Gorontalo</item>
-        <item>Maluku</item>
+        <item>Maluku</item>.
         <item>Maluku Utara</item>
         <item>Papua Barat</item>
         <item>Papua</item>
@@ -371,49 +370,55 @@
         <item>Rumah Adat Tradisional Gapura Candi Bentar</item>
         <item>Rumah Adat Tradisional Dalam Loka</item>
         <item>Rumah Adat Tradisional Musalaki</item>
+        <item>Rumah Adat Tradisional Baloy</item>>
         <item>Rumah Adat Tradisional Panjang</item>
         <item>Rumah Adat Tradisional Betang</item>
         <item>Rumah Adat Tradisional Bubungan Tinggi</item>
         <item>Rumah Adat Tradisional Lamin</item>
         <item>Rumah Adat Tradisional Pewaris</item>
+        <item>Rumah Adat Tradisional Mandar</item>>
+        <item>Rumah Adat Tradisional Tambi</item>>
         <item>Rumah Adat Tradisional Buton</item>
         <item>Rumah Adat Tradisional Tongkonan</item>
         <item>Rumah Adat Tradisional Dulohupa</item>
         <item>Rumah Adat Tradisional Baileo</item>
+        /
         <item>Rumah Adat Tradisional Sasadu</item>
         <item>Rumah Adat Tradisional Mod Aki Aksa</item>
         <item>Rumah Adat Tradisional Honai</item>
     </string-array>
     <string-array name="deskripsi3">
-        <item>Aceh</item>
-        <item>Sumatera Utara</item>
-        <item>Sumatera Barat</item>
-        <item>Riau</item>
-        <item>Kepulauan Riau</item>
-        <item>Jambi</item>
-        <item>Sumatera Selatan</item>
-        <item>Bangka Belitung</item>
-        <item>Bengkulu</item>
-        <item>Lampung</item>
-        <item>DKI Jakarta</item>
-        <item>Jawa Barat</item>
-        <item>Banten</item>
-        <item>Jawa Tengah</item>
-        <item>Daerah Istimewa Yogyakarta</item>
-        <item>Jawa Timur</item>
-        <item>Bali</item>
-        <item>Nusa Tenggara Barat</item>
-        <item>Nusa Tenggara Timur</item>
-        <item>Kalimantan Barat</item>
-        <item>Kalimantan Tengah</item>
-        <item>Kalimantan Selatan</item>
-        <item>Kalimantan Timur</item>
-        <item>Sulawesi Utara</item>
-        <item>Sulawesi Barat</item>
-        <item>Sulawesi Tengah</item>
-        <item>Sulawesi Tenggara</item>
-        <item>Sulawesi Selatan</item>
-        <item>Gorontalo</item>
+        <item>Rumah Krong Bade atau rumoh Aceh merupakan jenis rumah adat panggung. Ciri tersebut terlihat dari adanya sebuah tangga depan untuk masuk dan keluar rumah. Di Aceh sendiri hanya terdaat beberapa kepala keluarga yang masih bertahan dengan rumah adat krong bade. Alasannya karena biaya pembuatan rumah adat ini tergolong mahal. Sehingga banyak yang lebih memilih rumah modern minimalis yang lebih terjangkau.</item>
+        <item>Rumah Bolon merupakan rumah adat yang terpengaruh budaya suku Batak. Rumah adat bolon sendiri terdiri dari beberapa jenis, yakni Rumah Adat Bolon Toba, Rumah Adat Bolon Mandailing, Rumah Adat Bolon Simalungun, Rumah Adat Bolon Pakpak, Rumah Adat Bolon Karo dan Rumah Adat Bolon Angkola. Setiap jenis rumah adat tersebut memiliki aksen gaya arsitektur khusus. Jadi bisa dibilang rumah adat bolon termasuk rumah adat di Indonesia yang memeiliki banyak variasi dan gaya arsitektur.</item>
+        <item>Rumah Gadang merupakan rumah adat dari suku Minang yang ada di tanah Minangkabau. Rumah adat ini memiliki gaya arsitektur unik dan sentuhan budaya melayu nusantara. Sehingga tidaklah heran apabila menjumpai rumah gadang di beberapa wilayah Malaysia. Sebab masih satu rumun, yakni rumun melayu dan wilayah malaka. Selain itu, rumah adat gadang juga pernah dijadikan gambar pada mata uang logam 100 rupiah. Karena memang rumah adat dari Sumatera Barat ini sangat ikonik dan juga mudah dikenali sebagai representasi dari Indonesia.</item>
+        <item>Rumah Selaso Jatuh Kembar merupakan rumah adat di Indonesia yang berasal dari Provinsi Riau. Menurut sejarah, rumah adat selaso jatuh kembar bermakna rumah yang memiliki dua selasar. Selasar artinya lantai yang posisinya lebih rendah dari ruangan tengah. Biasanya digunakan untuk berkumpul dan juga bermusyawarah dalam satu keluarga maupun balai warga. Karena zaman sekarang sudah jarang, rumah selaso jatuh kembar hanya dapat dijumpai satu atau beberapa saja di setiap desa.</item>
+        <item>Rumah adat belah bubung merupakan rumah tradisional dari provinsi Kepulauan Riau. Rumah ini berbentuk rumah panggung dengan bentuk atap bervariasi. Atap lipat pandan berbentuk curam, atap lipat kajang berbentuk mendatar, atap layar berbentuk atap bersusun, atap perabung panjang berbentuk sejajar dengan jalan raya dan atap perabung melintang berbentuk tidak sejajar jalan raya. Pada umunya rumah adat di Indonesia ini terbagi menjadi 4 rauangan, yakni selasar, ruang induk, ruang penghubung dapur dan dapur.</item>
+        <item>Rumah Panggung Kajang Leko merupakan rumah adat yang berasal dari provinsi Jambi. Rumah adat ini tergolong sangat kompleks, dimana terdapat 8 ruangan di dalamnya. Ruangan pertama disebut jogan, untuk tempat beristirahat dan menyimpan persediaan air. Ruangan kedua disebut serambi depan, untuk tempat menerima tamu laki-laki saja. Ruangan ketiga disebut serambi dalam, untuk tempat tidur anak laki-laki, ruang keempat disebut amben melintang, untuk kamar pengantin. Ruang kelima disebut serambi belakang, untuk tempat tidur anak perempuan. Ruang keenam disebut laren, untuk tempat menerima tamu perempuan saja. Ruang ketujuh disebut garang, untuk tempat memasak makanan menyimpan persediaan air. Ruang kedelapan atau ruang dapur untuk memasak makanan.</item>
+        <item>Rumah limas merupakan rumah adat di Indonesia yang juga tergolong cukup unik. Dimana rumah ini memunyai atap berbentuk limas dengan arsitektur lantai bertingkat berbentuk panggung. Kayu yang digunakan untuk rangka dan tiang berasal dari kayu ulin. Sedangkan untuk bagian aksen lainnya menggunakan kayu tembesu. Kedua bahan kayu tersebut dikenal sangat bagus kualitasnya, sehingga rumah adat limas mamu bertahan hingga puluhan tahun.</item>
+        <item>Rumah adat rakit limas merupakan rumah adat yang sekilas hampir mirip dengan rumah adat limas. Ya, memang benar, rumah adat ini memiliki arsitektur dan aksen yang sama. Karena memang masih serumpun melayu dan berada di bumi Sumatera. Mungkin sedikit perbedaannya adalah pada aksen rakitnya. Bangka Belitung yang merupakan pulau menambahkan aksen rakit tersebut sebagai enanda sekaligus pembeda. Utamanya untuk menunjukkan ciri khas asli belitung.</item>
+        <item>Rumah rakyat merupakan rumah adat di Indonesia yang berasal dari provinsi Bengkulu. Rumah adat ini cukup kompleks namun tidak sekompleks rumah adat di provinsi Jambi. Ada beberaa ruangan yang memiliki fungsi khusus di dalam rumah adat rakyat ini. Diantaranya ada ruang berendo atau beranda untuk menerima tamu. Ruang bilik gedang yang digunakan sebagai kamar utama. Ruang bilik gadis digunakan untuk kamar anak perempuan. Ruang laki untuk kamar anak laki-laki. Juga ruang dapur untuk memasak makanan.</item>
+        <item>Rumah nowou sesat yang memiliki arti rumah ibadah. Menurut kisah setempat, rumah ini didirikan atas dasar beribadah, yakni membangun keluarga dan mendidik anak. Sehingga rumah nowou sesat sebenarnya memiliki makna yang baik dan dalam. Tetapi rumah adat yang berbentuk panggung dan atap ilalang ini sudah hampir jarang ditemui. Padahal rumah adat dari Lamung ini tergolong berarsitektur kayu minimalis. Sehingga tidak terlalu mahal dan sulit membuat bangunan rumah adat yang satu ini.</item>
+        <item>Rumah kebaya merupakan rumah adat yang kental dengan budaya Betawi. Sehingga bentuk rumah adat ini cukup khas dan juga mudah dikenali. Terlebih lagi di Jakarta, rumah kebaya tergolong langka dan sulit ditemui. Rumah adat betawi initenggelam diantara lautan gedung-gedung pencakar langit. Dewasa ini , rumah adat kebaya hanya bisa dijumpai di daerah perkampungan betawi saja. Itu pun jumlahnya juga tidak banyak, hanya sekitar belasan saja.</item>
+        <item>Rumah adat sunda merupakan rumah adat di Indonesia yang memiliki bentuk panggung di daerah Jawa Barat. Bagian depannya juga terdapat tangga atau golodog yang berfungsi untuk keluar masuk rumah. Sedangkan untuk atapnya mungkin yang paling banyak mempunyai jenis/variasi. Beberapa variasi atap yang sering dijumpai adalah atap Jolopong, Badak Heuay, Tagong Anjing, Jubleg Nangkub, Perahu Kemureb, Buka Pongpok dan juga Capit Gunting. Semua jenis tersebut memiliki ciri khas yang berbeda-beda.</item>
+        <item>Rumah adat badui meruakana rumah adat yang dibangun oleh suku badui yang berdiam diri di Banten. Karena masih sedikit dekat dengan Sumatera, maka karakteristiknya mirip rumah panggung dengan atap ilalang. Rumah adat badui ini memiliki struktur kayu, bambu dan batu sebagai material penyusunnya. Kayu pada bagian rangka, bambu pada bagian dinding dan tiangnya terbuat dari batu. Rumah adat ini masih bisa dijumpai di beberapa daerah pelosok ujung kulon dan pedesaan di daerah Banten.</item>
+        <item>Rumah adat Joglo berasal dari provinsi Jawa Tengah, yang merupakan rumah adat suku Jawa di bagian tengah dari Pulau Jawa. Rumah adat ini terdiri dari beberaa ruang di dalamnya. Ruangan-ruangan tersebut memiliki fungsi tersendiri. Ada ruang pendopo sebagai ruang tamu terbuka di depan rumah. Ruang pringgitan atau ruang samping sebagai ruang akses masuk dan keluar rumah. Ruang dalem yang merupakan ruang utama di dalam rumah. Ruang sentong berfungsi untuk ruang penyimpanan. Ruang gandok tengen dan gandok kiwo untuk kamar tidur keluarga.</item>
+        <item>Rumah Bangsal Kencono merupakan rumah adat di Indonesia yang berasal dari provinsi Jogjakarta. Dahulu kala, rumah adat ini dipakai untuk tempat tinggal raja-raja Jawa dan pejabat kerajaan. Biasanya lokasinya ada di bagian tengah dari keraton kesultanan. Dalam rumah adat ini terdapat banyak filosofi dan nilai-nilai kehidupan. Dimana setia bagian di dalamnya meruakan perlambangan dari laku polah manusia, alam semesta dan kehidupan didalamnya.</item>
+        <item>Rumah adat Joglo (Jawa Timuran) merupakan rumah adat yang masih hampir sama dengan joglo Jawa Tengah. Baik dari segi tampilan arsitekturnya maupun dari segi aksen yang ditampilkan. Namun untuk joglo dari Jawa Timur lebih minimalis tetapi artistik. Terlihat dari penambahan beberapa ruangan di dalamnya dengan fungsi lebih spesifik. Selain itu banyak nilai filosofis dan sanepan yang terkandung di dalam rumah ini. Sehingga semacam rumah adat yang didirikan atas dasar nilai luhur dan kebudayaan yang kental.</item>
+        <item>Rumah adat gapura candi bentar adalah rumah adat dari Bali. Pulau seribu pura ini masih menjunjung tinggi budaya dan adat istiadat daerahnya dengan kental. Dimana budaya dan adat istiadat tersebut menyatu dengan agama mayoritas di sana, yakni hindu. Sehingga rumah adat gapura candi bentar ini menyerupai pura lengkap dengan gapura masuknya. Berbeda dengan ruah adat lainnya, rumah adat provinsi Bali ini cukup mudah kita jumpai di sana. Itu tandanya rumah adat di Indonesia yang satu ini termasuk rumah adat yang masih banyak didirikan di daerah asalnya.</item>
+        <item>Rumah adat dalam loka merupakan rumah adat dari suku-suku asli yang mendiami Nusa Tenggara Barat. Suku-suku tersebut antara lain adalah suku Sasak, suku Sumbawa, suku Dongu dan suku Dompu. Rumah adat dalam loka memiliki sejarah yang cukup unik. Dahulu kala rumah adat ini tidak diperuntukkan untuk tempat tinggal, tetapi untuk istana raja dan tetua adat. Seiring dengan perkembangan zaman, rumah ini mulai difungsikan untuk tempat tinggal warga setempat. Di Nusa Tenggara Barat sendiri masih cukup mudah menjumpai rumah adat ini, khususnya di pedesaan dan daerah adat suku setempat.</item>
+        <item>Rumah Musalaki merupakan rumah adat dari provinsi Nusa Tenggara Timur. Jadi hampir sama dengan rumah adat di Nusa Tenggara Barat, hanya saja ada sedikit perbedaan dari segi arsitektur dan juga filosofi. Tetapi kisah dibaliknya juga sama, yakni awalnya rumah ini bukan rumah untuk warga. Hanya seorang raja, kepala suku dan para pembesar adat saja yang bisa tinggal di sana. Tetapi sekarang sudah umum dipakai sebagai tempat tinggal warga Nusa Tenggara Timur. Jadi antara Nusa Tenggara Barat dan Nusa Tenggara Timur termasuk dalam rumah adat di Indonesia yang memiliki kemiripan satu dengan yang lainnya karena letaknya yang berdekatan.</item>
+        <item>Rumah adat baloy merupakan rumah adat asli dari Kalimantan Utara. Meski provinsi ini adalah provinsi baru, namun kebudayaan dan rumah adatnya sudah ada seja zaman nenek moyang. Rumah Baloy terinspirasi dari rumah adat suk Tidung yang berdiam diri di wilayah Kalimantan Utara. Dimana suku asli Kalimantan Utara tersebut lebih baik dalam selera arsitektur bangunan daripada rumah adat di Kalimantan yang lain. Sehingga Kalimantan Utara menetapkan rumah adat ini sebagai maskot daerah sekaligus media menarik wisatawan.</item>
+        >
+        <item>Rumah Panjang merupakan rumah adat dari Kalimantan Barat tepatnya suku Dayak di Borneo Barat. Rumah ini berbentuk rumah panggung memanjang dengan tiang penyangga tinggi dan anak tangga yang lebar. Tetapi rumah adat dari Kalimantan Barat ini sekarang sudah jarang ditemui di derah asalnya. Bahkan bisa dikatakan sudah terancam punah tergerus zaman. Kini rumah adat panjang hanya bisa ditemui dengan arsitektur dan aksen yang lengka di Taman Mini Indonesia Indah saja.</item>
+        <item>Rumah adat betang adalah rumah adat asli dari provinsi Kalimantan Tengah. Rumah bentang secara garis besar hampir mirip dengan rumah Panjang di Kalimantan Barat. Hanya ukurannya saja yang cenderung lebih besar dan dibangun di areal yang lebih luas. Umumnya rumah betang ini dibangun di atas tanah seluas 150 meter x lebar 30 meter x tinggi 3-5 meter. Sehingga setiap stu rumah adat ini sebenarnya bisa ditinggali oleh 150 jiwa atau 30-35 kepala keluarga. Bila untuk ukuran rumah adat di Indonesia, rumah adat betang adalah rumah adat terbesar kedua di Indonesia.</item>
+        <item>Rumah adat bubungan tinggi merupakan rumah adat tradisional dari suku Dayak selatan. Dimana gaya arsitektur dan aksen yang ada di rumah ini sedikit berbeda dengan rumah adat suku dayak lainnya. Meski begitu, nilai kebanggan dan juga restisiusnya tidak kalah dengan rumah adat lainnya. Bahkan bisa dibilang rumah adat bubungan tinggi ini lebih menekankan pada struktur bangunan yang tinggi dan kokoh. Artinya rumah adat di Indonesia yang satu ini lebih mengutamakan konse bangunan daripada daya tampung bangunannya.</item>
+        <item>Rumah adat Lamin merupakan rumah adat asli dari suku Dayak Timur, Kutai dan Banjar. Rumah Lamin berbentuk layaknya rumah adat bentang dan rumah adat panjang. Namun ukurannya dua kali lipat dari rumah betang, dimana panjangnya 300 meter x lebar 15 meter x tinggi 3-5 meter. Itu artinya rumah ini adalah rumah adat terbesar di Indonesia. Jumlah orang yang dapat di tampung dan tinggal di sana sekitar 250 orang atau setara dengan 40-45 kepala keluarga</item>
+        <item>Rumah adat Pewaris merupakan rumah adat suku Minahasa yang merupakan suku asli dari Provinsi Sulawesi Utara. Rumah pewaris atau rumah walewangkoa berwujud rumah panggung dengan tiang balok kayu dan dua buah tangga kanan-kiri di bagian depan. Hampir seluruh bagian dari rumah adat di Indonesia ini terbuat dari bahan kayu asli. Selain itu, keunikan lainnya juga terdapat pada pembagian ruangannya. Ada ruangan berama Setup Emperan yang berfungsi sebagai tempat menerima tamu. Ruang Pores sebagai ruangan untuk tidur. Serta ruang sangkor untuk tempat menyimpan persediaan makanan/lumbung padi</item>
+        <item>Rumah adat mandar merupakan rumah adat yang berasal dari Sulawesi Barat. Rumah adat di Indonesia ini menggunakan teknik bangunan yang mirip dengan bangunan suku Bugis dan Toraja. Bedanya hanya pada teras yang luas dan jumlah anak tangga yang selalu dibuat ganjil. Selain itu sebagian besar dari stuktur material banguan dipergunakan bahan alam. Bahan tersebut berupa kayu asli, rumbia, ilalang, ijuk dan bambu. Didirikan berbentuk rumah panggung yang cukup tinggi. Karena semakin tinggi rumah yang dibangun, semakin tinggi pula status sosial orang tersebut.</item>
+        <item>Rumah adat tambi merupakan rumah adat tradisional dari Sulawesi Tengah. Rumah ini memiliki bentuk persegi panjang dengan gaya arsitektur rumah panggung. Bahan material yang digunakan kebanyakan adalah kayu asli dan juga batu alam. Dalam rumah adat ini juga dikenal adanya pembagian ruang. Dimana terdapat ruang ruang utama, dapur dan ruang tamu, semuanya ruangan berkumpul menjadi satu dengan sekat. Ada mitos yang mengatakan, rumah adat tambi hanya boleh dibangun menghadap ke utara atau selatan. Untuk membedakan status sosial, maka dibuatlah embeda menurut jumlah anak tangga. Rumah orang besar beranak tangga genap, sedangkan rumah orang biasa beranak tangga ganjil.</item>
+        <item>Rumah adat buton merupakan rumah adat di Indonesia yang berasal dari provinsi Sulawesi Tenggara. Dari segi karakteristik arsitektur banguannya cuku unik. Dimana rumah adat ini dibangaun dalam 4 lantai dengan teknik kontruksi kayu kait tanpa pasak dan paku. Itu tandanya masyarakat Sulawesi tenggara memiliki ketrampilan bangunan yang luar biasa. Keterampilan ini sudah turun temurun diwariskan dari generasi ke generasi. Namun dewasa ini cukup sedikit anak muda yang mau belajar dan mewarisi kemahiran dalam mebuat bangunan.</item>
+        <item>Rumah Tongkonan merupakan rumah adat suku Toraja, Sulawesi Selatan. Rumah adat ini memiliki ciri khas yang mencolok di bagian atanya. Ya, atap rumah ini berbentuk lengkung seperti perahu. Selain itu dibagian tersebut juga terdaat deretan tanduk kerbau yang berda di bagian depan rumah. Nah, uniknya lagi, rumah adat ini memiliki dua fungsi. Yakni sebagai tempat tinggal dan juga tempat penyimpanan mayat. Tetapi keduanya terpisah, tidak dijadikan satu.</item>
+        <item>Rumah Adat Dulohupa merupakan rumah adat dari provinsi Gorontalo. Rumah adat di Indonesia ini memiliki aksen atap yang cukup berseni dengan struktur bangunan khas rumah panggung. Sebagian besar material yang dipakai untuk membangun rumah ini adalah kayu asli. Sama seperti rumah adat sebelumnya, rumah adat dulohupa mempunyai dua fungsi, yakni sebagai tempat tinggal dan juga balai musyawarah. Jadi bisa dibilang bahwa rumah adat ini adalah lambang kerukunan masyarakat Gorontalo. Sehingga dulohupa memiliki nilai filosofi yang luhur khususnya tentang kebersamaan, musyawarah dan gotong royong.</item>
         <item>Maluku</item>
         <item>Maluku Utara</item>
         <item>Papua Barat</item>
@@ -432,13 +437,13 @@
         <item>@drawable/lampung3</item>
         <item>@drawable/jkt3</item>
         <item>@drawable/jabar3</item>
+        <item>@drawable/banten3</item>
         <item>@drawable/jateng3</item>
-        <item>@drawable/jateng3</item>
-        <item>@drawable/jogja3</item>
+        <item>@drawable/jogja3</item>>
         <item>@drawable/jatim3</item>
         <item>@drawable/bali3</item>
         <item>@drawable/ntb3</item>
-        <item>@drawable/ntt</item>
+        <item>@drawable/ntt3</item>
         <item>@drawable/kalut3</item>
         <item>@drawable/kalbar3</item>
         <item>@drawable/kalteng3</item>
@@ -447,9 +452,10 @@
         <item>@drawable/sulut3</item>
         <item>@drawable/sulbar3</item>
         <item>@drawable/sulteng3</item>
-        <item>@drawable/sulteng3</item>
+        <item>@drawable/sultenggara3</item>
         <item>@drawable/sulses3</item>
         <item>@drawable/gorontalo3</item>
+        .
         <item>@drawable/maluku3</item>
         <item>@drawable/malut3</item>
         <item>@drawable/papubar3</item>

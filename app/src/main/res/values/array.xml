@@ -156,4 +156,149 @@
         <item>@drawable/pabar</item>
         <item>@drawable/papua</item>
     </array>
+
+    --- Rumah --
+
+    <string-array name="kota3">
+        <item>Aceh</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Barat</item>
+        <item>Riau</item>
+        <item>Kepulauan Riau</item>
+        <item>Jambi</item>
+        <item>Sumatera Selatan</item>
+        <item>Bangka Belitung</item>
+        <item>Bengkulu</item>
+        <item>Lampung</item>
+        <item>DKI Jakarta</item>
+        <item>Jawa Barat</item>
+        <item>Banten</item>
+        <item>Jawa Tengah</item>
+        <item>Daerah Istimewa Yogyakarta</item>
+        <item>Jawa Timur</item>
+        <item>Bali</item>
+        <item>Nusa Tenggara Barat</item>
+        <item>Nusa Tenggara Timur</item>
+        <item>Kalimantan Utara</item>
+        <item>Kalimantan Barat</item>
+        <item>Kalimantan Tengah</item>
+        <item>Kalimantan Selatan</item>
+        <item>Kalimantan Timur</item>
+        <item>Sulawesi Utara</item>
+        <item>Sulawesi Barat</item>
+        <item>Sulawesi Tengah</item>
+        <item>Sulawesi Tenggara</item>
+        <item>Sulawesi Selatan</item>
+        <item>Gorontalo</item>
+        <item>Maluku</item>
+        <item>Maluku Utara</item>
+        <item>Papua Barat</item>
+        <item>Papua</item>
+    </string-array>
+    <string-array name="trailer_des3">
+        <item>Rumah Adat Tradisional Krong Bade </item>
+        <item>Rumah Adat Tradisional Bolon</item>
+        <item>Rumah Adat Tradisional Gadang</item>
+        <item>Rumah Adat Tradisional Selaso Jatuh Kembar</item>
+        <item>Rumah Adat Tradisional Belah bubung</item>
+        <item>Rumah Adat Tradisional Panggung Kajang Leko</item>
+        <item>Rumah Adat Tradisional Limas</item>
+        <item>Rumah Adat Tradisional Rakit Limas</item>
+        <item>Rumah Adat Tradisional Adat Rakyat</item>
+        <item>Rumah Adat Tradisional Nowou Sesat</item>
+        <item>Rumah Adat Tradisional Kebaya</item>
+        <item>Rumah Adat Tradisional Adat Sunda</item>
+        <item>Rumah Adat Tradisional Badui</item>
+        <item>Rumah Adat Tradisional Joglo</item>
+        <item>Rumah Adat Tradisional Bangsal Kencono</item>
+        <item>Rumah Adat Tradisional Joglo</item>
+        <item>Rumah Adat Tradisional Gapura Candi Bentar</item>
+        <item>Rumah Adat Tradisional Dalam Loka</item>
+        <item>Rumah Adat Tradisional Musalaki</item>
+        <item>Rumah Adat Tradisional Panjang</item>
+        <item>Rumah Adat Tradisional Betang</item>
+        <item>Rumah Adat Tradisional Bubungan Tinggi</item>
+        <item>Rumah Adat Tradisional Lamin</item>
+        <item>Rumah Adat Tradisional Pewaris</item>
+        <item>Rumah Adat Tradisional Buton</item>
+        <item>Rumah Adat Tradisional Tongkonan</item>
+        <item>Rumah Adat Tradisional Dulohupa</item>
+        <item>Rumah Adat Tradisional Baileo</item>
+        <item>Rumah Adat Tradisional Sasadu</item>
+        <item>Rumah Adat Tradisional Mod Aki Aksa</item>
+        <item>Rumah Adat Tradisional Honai</item>
+    </string-array>
+    <string-array name="deskripsi3">
+        <item>Aceh</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Barat</item>
+        <item>Riau</item>
+        <item>Kepulauan Riau</item>
+        <item>Jambi</item>
+        <item>Sumatera Selatan</item>
+        <item>Bangka Belitung</item>
+        <item>Bengkulu</item>
+        <item>Lampung</item>
+        <item>DKI Jakarta</item>
+        <item>Jawa Barat</item>
+        <item>Banten</item>
+        <item>Jawa Tengah</item>
+        <item>Daerah Istimewa Yogyakarta</item>
+        <item>Jawa Timur</item>
+        <item>Bali</item>
+        <item>Nusa Tenggara Barat</item>
+        <item>Nusa Tenggara Timur</item>
+        <item>Kalimantan Barat</item>
+        <item>Kalimantan Tengah</item>
+        <item>Kalimantan Selatan</item>
+        <item>Kalimantan Timur</item>
+        <item>Sulawesi Utara</item>
+        <item>Sulawesi Barat</item>
+        <item>Sulawesi Tengah</item>
+        <item>Sulawesi Tenggara</item>
+        <item>Sulawesi Selatan</item>
+        <item>Gorontalo</item>
+        <item>Maluku</item>
+        <item>Maluku Utara</item>
+        <item>Papua Barat</item>
+        <item>Papua</item>
+    </string-array>
+    <array name="gambar3">
+        <item>@drawable/aceh3</item>
+        <item>@drawable/sumut3</item>
+        <item>@drawable/sumbar3</item>
+        <item>@drawable/riau3</item>
+        <item>@drawable/kepriau3</item>
+        <item>@drawable/jambi3</item>
+        <item>@drawable/sumsel3</item>
+        <item>@drawable/bangbel3</item>
+        <item>@drawable/bengkulu3</item>
+        <item>@drawable/lampung3</item>
+        <item>@drawable/jkt3</item>
+        <item>@drawable/jabar3</item>
+        <item>@drawable/jateng3</item>
+        <item>@drawable/jateng3</item>
+        <item>@drawable/jogja3</item>
+        <item>@drawable/jatim3</item>
+        <item>@drawable/bali3</item>
+        <item>@drawable/ntb3</item>
+        <item>@drawable/ntt</item>
+        <item>@drawable/kalut3</item>
+        <item>@drawable/kalbar3</item>
+        <item>@drawable/kalteng3</item>
+        <item>@drawable/kalsel3</item>
+        <item>@drawable/kaltim3</item>
+        <item>@drawable/sulut3</item>
+        <item>@drawable/sulbar3</item>
+        <item>@drawable/sulteng3</item>
+        <item>@drawable/sulteng3</item>
+        <item>@drawable/sulses3</item>
+        <item>@drawable/gorontalo3</item>
+        <item>@drawable/maluku3</item>
+        <item>@drawable/malut3</item>
+        <item>@drawable/papubar3</item>
+        <item>@drawable/papua3</item>
+    </array>
+
+
 </resources>

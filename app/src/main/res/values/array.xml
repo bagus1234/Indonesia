@@ -54,72 +54,74 @@
     <string-array name="trailer_des">
         <item>Di Aceh terdapat tari tradisional bernama Tari Saman </item>
         <item>Sumatera Utara memiliki tari tradisional bernama Tari Tor-Tor</item>
-        <item>Sumatera Barat memiliki tari tradisional bernama Tari Tor-Tor</item>
-        <item>Riau memiliki tari tradisional bernama Tari Tor-Tor</item>
-        <item>Kepulauan Riau memiliki tari tradisional bernama Tari Tor-Tor</item>
-        <item>Jambi memiliki tari tradisional bernama Tari Tor-Tor</item>
-        <item>Sumatera Selatan memiliki tari tradisional bernama Tari Tor-Tor</item>
-        <item>Bangka Belitung memiliki tari tradisional bernama Tari Tor-Tor</item>
-        <item>Bengkulu memiliki tari tradisional bernama Tari Tor-Tor</item>
-        <item>Lampung memiliki tari tradisional bernama Tari Tor-Tor</item>
-        <item>DKI Jakarta memiliki tari tradisional bernama Tari Tor-Tor</item>
-        <item>Jawa Barat memiliki tari tradisional bernama Tari Tor-Tor</item>
-        <item>Banten memiliki tari tradisional bernama Tari Tor-Tor</item>
-        <item>Jawa Tengah memiliki tari tradisional bernama Tari Tor-Tor</item>
-        <item>Daerah Istimewa Yogyakarta memiliki tari tradisional bernama Tari Tor-Tor</item>
-        <item>Jawa Timur memiliki tari tradisional bernama Tari Tor-Tor</item>
-        <item>Bali memiliki tari tradisional bernama Tari Tor-Tor</item>
-        <item>Nusa Tenggara Barat memiliki tari tradisional bernama Tari Tor-Tor</item>
-        <item>Nusa Tenggara Timur memiliki tari tradisional bernama Tari Tor-Tor</item>
-        <item>Kalimantan Barat memiliki tari tradisional bernama Tari Tor-Tor</item>
-        <item>Kalimantan Tengah memiliki tari tradisional bernama Tari Tor-Tor</item>
-        <item>Kalimantan Selatan memiliki tari tradisional bernama Tari Tor-Tor</item>
-        <item>Kalimantan Timur memiliki tari tradisional bernama Tari Tor-Tor</item>
-        <item>Sulawesi Utara memiliki tari tradisional bernama Tari Tor-Tor</item>
-        <item>Sulawesi Barat memiliki tari tradisional bernama Tari Tor-Tor</item>
-        <item>Sulawesi Tengah memiliki tari tradisional bernama Tari Tor-Tor</item>
-        <item>Sulawesi Tenggara memiliki tari tradisional bernama Tari Tor-Tor</item>
-        <item>Sulawesi Selatan memiliki tari tradisional bernama Tari Tor-Tor</item>
-        <item>Gorontalo memiliki tari tradisional bernama Tari Tor-Tor</item>
-        <item>Maluku memiliki tari tradisional bernama Tari Tor-Tor</item>
-        <item>Maluku Utara memiliki tari tradisional bernama Tari Tor-Tor</item>
-        <item>Papua Barat memiliki tari tradisional bernama Tari Tor-Tor</item>
-        <item>Papua memiliki tari tradisional bernama Tari Tor-Tor</item>
+        <item>Sumatera Barat memiliki tari tradisional bernama Tari Piring</item>
+        <item>Riau memiliki tari tradisional bernama Tari Tandak</item>
+        <item>Kepulauan Riau memiliki tari tradisional bernama Tari Serampang Dua Belas</item>
+        <item>Jambi memiliki tari tradisional bernama Tari Sekapur Sirih</item>
+        <item>Sumatera Selatan memiliki tari tradisional bernama Tari Tanggai</item>
+        <item>Bangka Belitung memiliki tari tradisional bernama Tari Campak</item>
+        <item>Bengkulu memiliki tari tradisional bernama Tari Andun</item>
+        <item>Lampung memiliki tari tradisional bernama Tari Jangget</item>
+        <item>DKI Jakarta memiliki tari tradisional bernama Tari Topeng Betawi</item>
+        <item>Jawa Barat memiliki tari tradisional bernama Tari Merak</item>
+        <item>Banten memiliki tari tradisional bernama Tari Cokek</item>
+        <item>Jawa Tengah memiliki tari tradisional bernama Tari Serimpi</item>
+        <item>Daerah Istimewa Yogyakarta memiliki tari tradisional bernama Tari Bedhaya</item>
+        <item>Jawa Timur memiliki tari tradisional bernama Tari Remong</item>
+        <item>Bali memiliki tari tradisional bernama Tari Pendet</item>
+        <item>Nusa Tenggara Barat memiliki tari tradisional bernama Tari Gandrung</item>
+        <item>Nusa Tenggara Timur memiliki tari tradisional bernama Tari Caci</item>
+        <item>Kalimantan Utara memiliki tari tradisional bernama Tari Kancet Lodo</item>
+        <item>Kalimantan Barat memiliki tari tradisional bernama Tari Zapin</item>
+        <item>Kalimantan Tengah memiliki tari tradisional bernama Tari Hugo</item>
+        <item>Kalimantan Selatan memiliki tari tradisional bernama Tari Rahayu</item>
+        <item>Kalimantan Timur memiliki tari tradisional bernama Tari Gong</item>
+        <item>Sulawesi Utara memiliki tari tradisional bernama Tari Maengket</item>
+        <item>Sulawesi Barat memiliki tari tradisional bernama Tari Patuddu</item>
+        <item>Sulawesi Tengah memiliki tari tradisional bernama Tari Lumense</item>
+        <item>Sulawesi Tenggara memiliki tari tradisional bernama Tari Balumpa</item>
+        <item>Sulawesi Selatan memiliki tari tradisional bernama Tari Bosara</item>
+        <item>Gorontalo memiliki tari tradisional bernama Tari Saronde</item>
+        <item>Maluku memiliki tari tradisional bernama Tari Katreji</item>
+        <item>Maluku Utara memiliki tari tradisional bernama Tari Lenso</item>
+        <item>Papua Barat memiliki tari tradisional bernama Tari Perang</item>
+        <item>Papua memiliki tari tradisional bernama Tari Musyoh</item>
     </string-array>
     <string-array name="deskripsi">
         <item>Tari Saman adalah sebuah tarian Suku Gayo yang biasa ditampilkan untuk merayakan peristiwa-peristiwa penting dalam adat. Syair dalam tarian saman mempergunakan Bahasa Gayo. Selain itu biasanya tarian ini juga ditampilkan untuk merayakan kelahiran Nabi Muhammad SAW.</item>
-        <item>Sumatera Utara</item>
-        <item>Sumatera Barat</item>
-        <item>Riau</item>
-        <item>Kepulauan Riau</item>
-        <item>Jambi</item>
-        <item>Sumatera Selatan</item>
-        <item>Bangka Belitung</item>
-        <item>Bengkulu</item>
-        <item>Lampung</item>
-        <item>DKI Jakarta</item>
-        <item>Jawa Barat</item>
-        <item>Banten</item>
-        <item>Jawa Tengah</item>
-        <item>Daerah Istimewa Yogyakarta</item>
-        <item>Jawa Timur</item>
-        <item>Bali</item>
-        <item>Nusa Tenggara Barat</item>
-        <item>Nusa Tenggara Timur</item>
-        <item>Kalimantan Barat</item>
-        <item>Kalimantan Tengah</item>
-        <item>Kalimantan Selatan</item>
-        <item>Kalimantan Timur</item>
-        <item>Sulawesi Utara</item>
-        <item>Sulawesi Barat</item>
-        <item>Sulawesi Tengah</item>
-        <item>Sulawesi Tenggara</item>
-        <item>Sulawesi Selatan</item>
-        <item>Gorontalo</item>
-        <item>Maluku</item>
-        <item>Maluku Utara</item>
-        <item>Papua Barat</item>
-        <item>Papua</item>
+        <item>Tari tor-tor termasuk tarian adat di Sumatera Utara. Tortor adalah tarian seremonial yang disajikan dengan musik gondang. Tujuan tarian ini sebagai  media komunikasi, di mana melalui gerakan yang disajikan terjadi interaksi antara partisipan upacara.</item>
+        <item>Tari piring adalah ciri khas dari Sumatera Barat. Tarian ini biasanya memakai piring yang diletakkan di tangan penari. Gerakan yang ada di tarian ini memiliki unsur silat.</item>
+        <item>Tari Tandak/danding biasanya dipertunjukan pada malam hari. Tarian ini diawali dengan semua peserta tari tandak membentuk sebuah lingkaran dan saling berpegangan pundak setiap peserta.</item>
+        <item>Tari serampang dua belas adalah sebuah tari kolosal yang menceritakan sebuah perjalanan sepasang bujang gadis dalam menemukan cinta sejatinya.</item>
+        <item>Tari sekapur sirih adalah tari penyambut tamu di daerah Jambi. Tari ini menggambarkan ungkapan rasa putih hati masyarakat dalam menyambut tamu. Sekapur Sirih biasanya ditarikan oleh 9 orang penari perempuan, dan 3 orang penari laki-laki, 1 orang yang bertugas membawa payung dan 2 orang pengawal.</item>
+        <item>Tari tanggai adalah sebuah tarian yang disajikan untuk menyambut tamu yang telah memenuhi undangan. Tari tanggai biasanya dipertontonkan dalam acara pernikahan adat daerah Palembang.</item>
+        <item>Tari Campak merupakan tarian dari daerah Bangka-Belitung yang menggambarkan keceriaan bujang dan dayang di Kepulauan Bangka Belitung. Tarian ini biasanya dibawakan setelah panen padi atau sepulang dari ume (kebun).</item>
+        <item>Tari Andun adalah salah satu tarian rakyat yang berasal dari Bengkulu dan dilakukan pada saat pesta perkawinan. Biasanya dilakukan oleh para bujang dan gadis secara berpasangan pada malam hari dengan diringi musik kolintang.</item>
+        <item>Tarian yang pertama atau ada di Lampung ini sendiri adalah tarian jangget. Tarian ini sendiri biasanya digunakan pada upacara-upacara adat yang biasa dilangsungkan dalam setiap kegiatan adat yang ada di daerah ini sendiri.</item>
+        <item>Tari Topeng Betawi adalah salah satu tarian adat masyarakat betawi di Jakarta yang menggunakan topeng sebagai ciri khasnya. Tarian ini merupakan perpaduan antara seni tari, music, dan nyanyian.</item>
+        <item>Tari Merak merupakan salah satu ragam tarian kreasi baru yang mengekspresikan kehidupan binatang, yaitu burung merak. Tata cara dan geraknya diambil dari kehidupan merak yang diangkat ke pentas oleh Seniman Sunda Raden Tjetje Somantri.</item>
+        <item>Tari Cokek merupakan tarian yang berasal dari budaya Betawi tempo dulu. Tari cokek ditarikan berpasangan antara laki-laki dan perempuan. Tarian khas Tangerang-Tanggerangini diwarnai budaya Tiongkok.</item>
+        <item>Tari Serimpi merupakan sebuah tarian klasik dari Yogyakarta. Tarian ini ditampilkan oleh empat orang penari wanita yang cantik dan anggun.</item>
+        <item>Tari Bedhaya Ketawang adalah sebuah tarian kebesaran yang hanya dipertunjukkan ketika penobatan serta Tingalandalem Jumenengan Sunan Surakarta (upacara peringatan kenaikan tahta raja).</item>
+        <item>Tari Remo adalah tarian tradisional Jawa Timur yang menggambarkan keberanian seorang Pangeran yang berjuang di medan perang.</item>
+        <item>Tari Pendet pada awalnya merupakan tari pemujaan yang banyak diperagakan di pura, tempat ibadat umat Hindu di Bali, Indonesia. Tarian ini melambangkan penyambutan atas turunnya dewata ke alam dunia.</item>
+        <item>Tari Gandrung biasanya dilakukan pada sebuah arena yang dikelilingi penonton. Diantara penonton tersebut adalah sekaligus sebagai calon penari</item>
+        <item>Caci atau tari Caci atau adalah tari perang sekaligus permainan rakyat antara sepasang penari laki-laki yang bertarung dengan cambuk dan perisai di Flores, Nusa Tenggara Timur. Tari ini dimainkan saat syukuran musim panen (hang woja)[1] dan ritual tahun baru (penti)</item>
+        <item>Kalimantan Utara memiliki tari tradisional bernama Tari Kancet Lodo</item>
+        <item>Zapin berasal dari bahasa arab yaitu "Zafn" yang mempunyai arti pergerakan kaki cepat mengikut rentak pukulan.  Tarian tradisional ini bersifat edukatif dan sekaligus menghibur, digunakan sebagai media dakwah Islamiyah melalui syair lagu-lagu zapin yang didendangkan.</item>
+        <item>Tarian Hugo dan Huda ini merupakan tarian tradisional dari Kalimantan Tengah yang termasuk dalam tarian ritual agar para dewa menurunkan hujan ke bumi. Tarian ini biasanya dilakukan apabila telah berlangsung musim kemarau yang cukup lama.</item>
+        <item>Tarian ini merupakan salah satu tarian untuk penyambutan tamu sebagai tanda penghormatan. Tarian ini merupakan tarian penolak bala untuk meminta keselamatan dari segala  mara bahaya.</item>
+        <item>Tari Gong atau dapat disebut juga Tari Kancet Ledo adalah salah satu tarian Dayak Kalimantan Timur. Tarian ini ditarikan seorang gadis dengan gong digunakan sebagai alat musik pengiringnya.</item>
+        <item>Maengket dibawakan oleh penari perempuan maupun laki-laki dengan memakai pakaian putih. Maengket dipentaskan setiap kali panen usai dan saat penyambutan tamu</item>
+        <item>Tarian patuddu biasanya dibawakan oleh para penari wanita dengan gerakannya yang lemah gemulai dan menggunakan kipas sebagai alat menarinya.</item>
+        <item>Tari Lumense merupakan salah satu tradisi masyarakat Tokotu'a atau Kabaena, Kabupaten Bombana dalam menyambut tamu pada pesta-pesta rakyat. Tarian ini dilakukan oleh kelompok perempuan yang berjumlah 12 orang, 6 orang berperan sebagai laki-laki dan 6 lainnya berperan sebagai perempuan.</item>
+        <item>Tari Balumpa adalah tarian tradisional yang berasal dari daerah Wakatobi, Sulawesi Tenggara. Tarian ini termasuk tarian pergaulan yang ditampilkan oleh penari wanita untuk menyambut para tamu terhormat yang datang ke sana.</item>
+        <item>Tari Bosara adalah tarian yang mengambarkan bahwa orang bugis jika kedatangan tamu senantiasa menghidangkan bosara, sebagai tanda kesyukuran dan kehormatan.</item>
+        <item>Tari Saronde merupakan salah satu tarian tradisional yang cukup terkenal di masyarakat Gorontalo. Selain menjadi bagian dari acara pernikahan adat, Tari Saronde juga sering ditampilkan dalam acara seperti penyambutan, pertunjukan seni, dan festival budaya.</item>
+        <item>Tari Katreji adalah salah satu tarian tradisional yang berasal dari daerah Maluku. Tarian ini biasanya dilakukan secara berpasangan antara penari pria dan penari wanita.</item>
+        <item>Tari Lenso adalah tarian muda-mudi dari daerah Maluku dan Minahasa Sulawesi Utara. Tarian ini biasanya di bawakan secara ramai-ramai bila ada Pesta. Baik Pesta Pernikahan, Panen Cengkeh, Tahun Baru dan kegiatan lainnya.</item>
+        <item>Tari Perang adalah salah satu tarian tradisional yang berasal dari daerah Papua Barat. Tarian ini menggambarkan jiwa kepahlawanan dan kegagahan masyarakat Papua. Biasanya tarian ini dibawakan oleh para penari pria dengan berpakaian adat dan membawa panah sebagai atribut menarinya.</item>
+        <item>Tari musyoh merupakan tari sakral dalam upaya mengusir arwah or¬ang meninggal karena kecelakaan. Tarian ini sendiri memiliki gerakan khas seperti tari-tarian yaitu antara lain adalah gerakan yang sangat dinamik semangat dan juga menarik</item>
     </string-array>
     <array name="gambar">
         <item>@drawable/aceh</item>
@@ -134,13 +136,14 @@
         <item>@drawable/lampung</item>
         <item>@drawable/jkt</item>
         <item>@drawable/jabar</item>
-        <item>@drawable/jateng</item>
+        <item>@drawable/banten</item>
         <item>@drawable/jateng</item>
         <item>@drawable/diy</item>
         <item>@drawable/jatim</item>
         <item>@drawable/bali</item>
         <item>@drawable/ntb</item>
         <item>@drawable/ntb</item>
+        <item>@drawable/kalut</item>
         <item>@drawable/kalbar</item>
         <item>@drawable/kalteng</item>
         <item>@drawable/kalsel</item>

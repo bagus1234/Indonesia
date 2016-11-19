@@ -16,6 +16,8 @@
 
 
 <resources>
+
+    <!--TARI DAERAH-->
     <string-array name="kota">
         <item>Aceh</item>
         <item>Sumatera Utara</item>
@@ -137,7 +139,6 @@
         <item>@drawable/lampung</item>
         <item>@drawable/jkt</item>
         <item>@drawable/jabar</item>
-        <item>@drawable/banten</item>
         <item>@drawable/jateng</item>
         <item>@drawable/diy</item>
         <item>@drawable/jatim</item>
@@ -159,5 +160,156 @@
         <item>@drawable/malut</item>
         <item>@drawable/pabar</item>
         <item>@drawable/papua</item>
+        <item>@drawable/papua</item>
     </array>
+
+    <!--    PAKAIAN ADAT-->
+
+    <string-array name="kota1">
+        <item>Aceh</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Barat</item>
+        <item>Riau</item>
+        <item>Kepulauan Riau</item>
+        <item>Jambi</item>
+        <item>Sumatera Selatan</item>
+        <item>Bangka Belitung</item>
+        <item>Bengkulu</item>
+        <item>Lampung</item>
+        <item>DKI Jakarta</item>
+        <item>Jawa Barat</item>
+        <item>Banten</item>
+        <item>Jawa Tengah</item>
+        <item>Daerah Istimewa Yogyakarta</item>
+        <item>Jawa Timur</item>
+        <item>Bali</item>
+        <item>Nusa Tenggara Barat</item>
+        <item>Nusa Tenggara Timur</item>
+        <item>Kalimantan Barat</item>
+        <item>Kalimantan Tengah</item>
+        <item>Kalimantan Selatan</item>
+        <item>Kalimantan Timur</item>
+        <item>Sulawesi Utara</item>
+        <item>Sulawesi Barat</item>
+        <item>Sulawesi Tengah</item>
+        <item>Sulawesi Tenggara</item>
+        <item>Sulawesi Selatan</item>
+        <item>Gorontalo</item>
+        <item>Maluku</item>
+        <item>Maluku Utara</item>
+        <item>Papua Barat</item>
+        <item>Papua</item>
+    </string-array>
+
+
+    <string-array name="trailer_des1">
+        <item>Pakaian Adat Tradisional Ulee Balang</item>
+        <item>Pakaian Adat Tradisional Ulos</item>
+        <item>Pakaian Adat Tradisional Bundo Kanduang</item>
+        <item>Pakaian Adat Tradisional Melayu</item>
+        <item>Pakaian Adat Tradisional Belanga</item>
+        <item>Pakaian Adat Tradisional Melayu Jambi</item>
+        <item>Pakaian Adat Tradisional Aesan Gede</item>
+        <item>Pakaian Adat Tradisional Ulee Paksian</item>
+        <item>Pakaian Adat Tradisional Bengkulu</item>
+        <item>Pakaian Adat Tradisional Tulabg Bawang</item>
+        <item>Pakaian Adat Tradisional Betawi</item>
+        <item>Pakaian Adat Tradisional Kebaya</item>
+        <item>Pakaian Adat Tradisional Pangsi</item>
+        <item>Pakaian Adat Tradisional Kain Kebaya</item>
+        <item>Pakaian Adat Tradisional Kesatrian</item>
+        <item>Pakaian Adat Tradisional Bali</item>
+        <item>Pakaian Adat Tradisional Lombok</item>
+        <item>Pakaian Adat Tradisional NTT</item>
+        <item>Pakaian Adat Tradisional Perang</item>
+        <item>Pakaian Adat Tradisional Kalimantan Tengah</item>
+        <item>Pakaian Adat Tradisional Bagajah Gamuling Baular Lulut</item>
+        <item>Pakaian Adat Tradisional Kalimantan Timur</item>
+        <item>Pakaian Adat Tradisional Kulavi(Donggala</item>
+        <item>Pakaian Adat Tradisional Mandar</item>
+        <item>Pakaian Adat Tradisional Nggembe</item>
+        <item>Pakaian Adat Tradisional Suku Tolaki</item>
+        <item>Pakaian Adat Tradisional Bodo</item>
+        <item>Pakaian Adat Tradisional Gorontalo</item>
+        <item>Pakaian Adat Tradisional Baju Cele</item>
+        <item>Pakaian Adat Tradisional Manteren Lamo</item>
+        <item>Pakaian Adat Tradisional Ewer</item>
+        <item>Pakaian Adat Tradisional Papua</item>
+        <item>Pakaian Adat Tradisional BELUM</item>
+        <item>Pakaian Adat Tradisional BELUM</item>
+
+
+    </string-array>
+    <string-array name="deskripsi1">
+        <item>Aceh</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Barat</item>
+        <item>Riau</item>
+        <item>Kepulauan Riau</item>
+        <item>Jambi</item>
+        <item>Sumatera Selatan</item>
+        <item>Bangka Belitung</item>
+        <item>Bengkulu</item>
+        <item>Lampung</item>
+        <item>DKI Jakarta</item>
+        <item>Jawa Barat</item>
+        <item>Banten</item>
+        <item>Jawa Tengah</item>
+        <item>Daerah Istimewa Yogyakarta</item>
+        <item>Jawa Timur</item>
+        <item>Bali</item>
+        <item>Nusa Tenggara Barat</item>
+        <item>Nusa Tenggara Timur</item>
+        <item>Kalimantan Barat</item>
+        <item>Kalimantan Tengah</item>
+        <item>Kalimantan Selatan</item>
+        <item>Kalimantan Timur</item>
+        <item>Sulawesi Utara</item>
+        <item>Sulawesi Barat</item>
+        <item>Sulawesi Tengah</item>
+        <item>Sulawesi Tenggara</item>
+        <item>Sulawesi Selatan</item>
+        <item>Gorontalo</item>
+        <item>Maluku</item>
+        <item>Maluku Utara</item>
+        <item>Papua Barat</item>
+        <item>Papua</item>
+    </string-array>
+    <array name="gambar1">
+        <item>@drawable/aceh2</item>
+        <item>@drawable/sumut2</item>
+        <item>@drawable/sumbar</item>
+        <item>@drawable/riau2</item>
+        <item>@drawable/kepriau2</item>
+        <item>@drawable/jambi2</item>
+        <item>@drawable/sumsel2</item>
+        <item>@drawable/bangkabelitung2</item>
+        <item>@drawable/bengkulu2</item>
+        <item>@drawable/lampung2</item>
+        <item>@drawable/jkt2</item>
+        <item>@drawable/jabar2</item>
+        <item>@drawable/jateng2</item>
+        <item>@drawable/jateng2</item>
+        <item>@drawable/yogyakarta2</item>
+        <item>@drawable/jatim2</item>
+        <item>@drawable/bali2</item>
+        <item>@drawable/ntb2</item>
+        <item>@drawable/ntb2</item>
+        <item>@drawable/kalutara2</item>
+        <item>@drawable/kalbar2</item>
+        <item>@drawable/kalmanteng2</item>
+        <item>@drawable/kalsel2</item>
+        <item>@drawable/kaltim</item>
+        <item>@drawable/sulut2</item>
+        <item>@drawable/sulbar2</item>
+        <item>@drawable/sulteng2</item>
+        <item>@drawable/sulteng2</item>
+        <item>@drawable/sulsel2</item>
+        <item>@drawable/gorontalo2</item>
+        <item>@drawable/malukuutara2</item>
+        <item>@drawable/malukuutara2</item>
+        <item>@drawable/papuabarat2</item>
+        <item>@drawable/papua2</item>
+    </array>
+
 </resources>

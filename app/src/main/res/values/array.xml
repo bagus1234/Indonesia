@@ -185,6 +185,7 @@
         <item>Bali</item>
         <item>Nusa Tenggara Barat</item>
         <item>Nusa Tenggara Timur</item>
+        <item>Kalimantan Utara</item>
         <item>Kalimantan Barat</item>
         <item>Kalimantan Tengah</item>
         <item>Kalimantan Selatan</item>
@@ -212,15 +213,17 @@
         <item>Pakaian Adat Tradisional Aesan Gede</item>
         <item>Pakaian Adat Tradisional Ulee Paksian</item>
         <item>Pakaian Adat Tradisional Bengkulu</item>
-        <item>Pakaian Adat Tradisional Tulabg Bawang</item>
+        <item>Pakaian Adat Tradisional Tulang Bawang</item>
         <item>Pakaian Adat Tradisional Betawi</item>
         <item>Pakaian Adat Tradisional Kebaya</item>
         <item>Pakaian Adat Tradisional Pangsi</item>
         <item>Pakaian Adat Tradisional Kain Kebaya</item>
         <item>Pakaian Adat Tradisional Kesatrian</item>
+        <item>Pakaian Adat Tradisional Baju Mantenan</item>
         <item>Pakaian Adat Tradisional Bali</item>
         <item>Pakaian Adat Tradisional Lombok</item>
         <item>Pakaian Adat Tradisional NTT</item>
+        <item>Pakaian Adat Tradisional Baju Taa</item>
         <item>Pakaian Adat Tradisional Perang</item>
         <item>Pakaian Adat Tradisional Kalimantan Tengah</item>
         <item>Pakaian Adat Tradisional Bagajah Gamuling Baular Lulut</item>
@@ -235,45 +238,42 @@
         <item>Pakaian Adat Tradisional Manteren Lamo</item>
         <item>Pakaian Adat Tradisional Ewer</item>
         <item>Pakaian Adat Tradisional Papua</item>
-        <item>Pakaian Adat Tradisional BELUM</item>
-        <item>Pakaian Adat Tradisional BELUM</item>
-
 
     </string-array>
     <string-array name="deskripsi1">
-        <item>Aceh</item>
-        <item>Sumatera Utara</item>
-        <item>Sumatera Barat</item>
-        <item>Riau</item>
-        <item>Kepulauan Riau</item>
-        <item>Jambi</item>
-        <item>Sumatera Selatan</item>
-        <item>Bangka Belitung</item>
-        <item>Bengkulu</item>
-        <item>Lampung</item>
-        <item>DKI Jakarta</item>
-        <item>Jawa Barat</item>
-        <item>Banten</item>
-        <item>Jawa Tengah</item>
-        <item>Daerah Istimewa Yogyakarta</item>
-        <item>Jawa Timur</item>
-        <item>Bali</item>
-        <item>Nusa Tenggara Barat</item>
-        <item>Nusa Tenggara Timur</item>
-        <item>Kalimantan Barat</item>
-        <item>Kalimantan Tengah</item>
-        <item>Kalimantan Selatan</item>
-        <item>Kalimantan Timur</item>
-        <item>Sulawesi Utara</item>
-        <item>Sulawesi Barat</item>
-        <item>Sulawesi Tengah</item>
-        <item>Sulawesi Tenggara</item>
-        <item>Sulawesi Selatan</item>
-        <item>Gorontalo</item>
-        <item>Maluku</item>
-        <item>Maluku Utara</item>
-        <item>Papua Barat</item>
-        <item>Papua</item>
+        <item>Pakaian adat tradisional Aceh biasa adalah Ulee Balang, pakaian tersebut biasanya digunakan oleh para raja dan keluarganya.</item>
+        <item>Pakaian adat tradisional Sumatera Utara adalah Ulos. Pakaian adat Ulos dianggap oleh masyarakat suku Batak Karo sebagai ajimat yang mempunyai daya magis tertentu.</item>
+        <item>Pakaian yang berasal dari Sumatera Barat bernama pakaian Bundo Kanduang. Pakaian ini memiliki keunikan pada bagian penutup kepalanya yang berbenuk seperti tanduk kerbau.</item>
+        <item>Pakaian adat tradisional Riau adalah pakaian adat tradisional Melayu. Di Riau ada 3 macam pakaian adat tradisional Melayu yaitu Siak Riau, Indragiri dan Bengkalis Riau.</item>
+        <item>Pakaian teluk belanga sebetulnya adalah pakaian pria Melayu yang juga dijadikan ikon pakaian adat Riau, Jambi, dan sekitarnya. Busana ini terdiri dari celana, kain sampin, dan songkok atau penutup kepala.</item>
+        <item>Pakaian adat tradisional Melayu dari Jambi ini biasanya lebih mewah daripada pakaian yang digunakan sehari-hari karena disulam dengan benang emas dan dihiasi dengan berbagai hiasan yang mewah untuk kelengkapannya.</item>
+        <item>Pakaian adat tradisional Sumatera Selatan adalah Aesan Gede. Baju adat tradisional ini terinspirasi dari zaman kerajaan Sriwijaya yang dulunya berjaya di daerah Sumatera Selatan.</item>
+        <item>Pakaian adat tradisional Bangka Belitung adalah Paksian. Untuk perempuan biasanya memakai baju kurung berwarna merah yang berbahan kain sutra dan kepalanya memakai mahkota yang biasa disebut dengan nama Paksian. Sedangkan untuk laki-laki menggunakan sorban atau yang biasa disebut masyarakat Bangka Belitung sebagai Sungkon.</item>
+        <item>Pakaian adat tradisional wanita di Bengkulu mengenakan baju kurung berlengan panjang, bertabur corak-corak, sulaman emas berbentuk lempengan-lempengan bulat seperti uang logam. Pakaian adat tradisional pria terdiri atas jas, sarung, celana panjang, alas kaki yang dilengkapi dengan tutup kepala dan sebuah keris</item>
+        <item>Pakaian adat Tulang Bawang biasanya untu laki-laki Mengenakan kemeja lengan panjang, penutup dada, dan celana panjang. Sedangkan yang wanita memakai kain songket serta baju berlengan pendek.</item>
+        <item>Pakaian adat tradisional Jakarta biasa disebut dengan nama Pakaian Adat Betawi yang dipengaruhi dari berbagai corak masyarakat Jakarta yang sangat beragam diantaranya dipengaruhi oleh budaya Arab, China, Melayu dan Budaya Barat.</item>
+        <item>Untuk pakaian adat tradisional Jawa Barat memiliki perbedaan untuk laki-laki dan perempuan. Kain kebaya pada dasarnya digunakan perempuan di semua lapisan, baik rakyat biasan maupun bangsawan. Perbedaannya mungkin hanya pada bahan kebaya yang digunakan serta corak hiasnya.</item>
+        <item>Pakaian adat tradisional Lampung bila dicermati terdapat perbedaan antara lampung pesisir dengan lampung daratan tetapi pada dasar masih sama yaitu menggunakan kain tapis di hias dengan logam kuningan yang memper indah dan mebuat mewah, sedangkan kain tapis adalah suatu kain yang ditenun secara manual dengan menggunakan tinta mas yang di ukir dengan tangan tangan</item>
+        <item>Pakaian adat tradisional Jawa Tengah identik dengan penggunaan kain kebaya dengan motif batik, dimana batik yang digunakan merupakan batik tulis yang masih tergolong asli.</item>
+        <item>Pakaian adat tradisional masyarakat Daerah Istimewa Yogyakarta terdiri dari seperangkat pakaian adat tradisional yang memiliki unsur-unsur yang tidak dapat dipisahkan satu dengan lainnya. </item>
+        <item>Baju ini umumnya hanya dikenakan pada saat resepsi pernikahan adat Jawa Timuran oleh para mempelai. Penggunaan pakaian ini juga dilengkapi dengan penutup kepala dan rangkaian bunga melati yang dikalungkan di leher untuk mempelai pria dan digantungkan pada sanggul untuk mempelai wanitanya.</item>
+        <item>Pakaian adat tradisional Bali sesungguhnya sangat bervariasi, meskipun secara selintas kelihatannya sama. Masing-masing daerah di Bali mempunyai ciri khas simbolik dan ornamen, berdasarkan kegiatan/upacara, jenis kelamin dan umur penggunanya.</item>
+        <item>Pakaian adat lambung adalah pakaian adat NTB yang digunakan khusus untuk wanita saat menyambut tamu dan dalam upacara adat mendakin atau nyongkol. Baju pegon khusus dikenakan oleh para pria. Baju ini dipercaya merupakan hasil adaptasi kebudayaan Eropa dan Jawa yang terbawa ke NTB di masa silam.</item>
+        <item>Ti’langga merupakan aksesoris dari pakaian adat tradisional untuk pria Rote, Nusa Tenggara Timur. Untuk wanita, biasanya mengenakan baju kebaya pendek dan bagain bawahnya mengenakan kain tenun.</item>
+        <item>Pakaian adat trasional Kalimantan Barat berbahan kulit kayu yang diproses menjadi kain. Untuk bahan utama yang digunakan sebagai bahan pakaian adat tradisional Kalimantan Barat adalah kulit kayu kapuo atau ampuro.</item>
+        <item>Untuk pakaian adat tradisional pengantin pria di Kalimantan Tengah memakai celana panjang sampai lutut, selempit perak atau tali pinggang dan tutup kepala. Pengantin wanita memakai kain berupa rok pendek, rompi, ikat kepala dengan hiasan bulu enggang, kalung dan subang.</item>
+        <item>Bagajah Gamuling Baular Lulut adalah nama Pakaian pengantin Banjar propinsi Kalimantan Selatan. Pakaian pengantin Banjar yang banyak dipengaruhi budaya Hindu yang terlihat begitu eksotik. Dipenuhi roncean bunga melati dan mawar yang disebut bogam, juga rangkaian melati yang sebut karang jagung.</item>
+        <item>Orang Kalimantan Timur(Kaltim)biasanya mengenakan pakaian khas mereka bergantung fungsi dan penggunaan.Pakaian yang dikenakan untuk bepergian berbeda dengan pakaian sehari-hari. Pakaian adat yang dimiliki masyarakat Kaltim biasa dikenakan pada saat upacara,perkawinan,tarian,dan sebagainya.</item>
+        <item>Pakaian adat dari Sulawesi Utara bernama Kulavi(Donggala). Untuk pria biasanya terletak pada motif hiasan di dada dan penutup kepala mereka, untuk wanita biasanya terletak pada hiasan di kepala serta gelang yang dipakainya.</item>
+        <item>Lipa Saqbe Mandar (Sarung Sutra Mandar) adalah pakaian adat Sulawesi Barat yang memiliki ciri khas khusus yakni dari segi corak (sure’ ataupun bunga) dan cara pembuatannya, yang membuatnya terkenal ke daerah sekitarnya (bugis dan makassar).</item>
+        <item>Baju Nggembe adalah pakaian adat tradisional yang dipakai oleh remaja putri untuk Upacara Adat atau pesta. Baju Nggembe berbentuk segi empat, berkerah bulat berlengan selebar kain, panjang blus sampai pinggang dan berbentuk longgar.</item>
+        <item>Pakaian adat Tolaki bernama Babu Nggawi dan Babu Nggawi Langgai. Babu Nggawi adalah pakaian untuk wanta, sedangkan Babu Nggawi Langgai untuk pengantin pria</item>
+        <item>Baju bodo  adalah pakaian adat tradisional perempuan Bugis,  Sulawesi Selatan,  Indonesia. Baju bodo berbentuk segi empat, biasanya berlengan pendek, yaitu setengah atas bagian siku lengan. Baju bodo juga dikenali sebagai salah satu busana tertua di dunia.</item>
+        <item>Dalam acara pernikahan pakaian adat tradisional daerah khas Gorontalo disebut Biliu (pakaian pengantin putri) dan Mukuta (pakaian pengantin putra). Pakaian adat Gorontalo umumnya mempunyaitiga warna dan memiliki arti tertentu yaitu warna ungu, warna kuning keemasan, dan warna hijau.</item>
+        <item>Baju Cele bermotif garis-garis geometris atau berkotak-kotak kecil. Biasanya, baju Cele dikombinasikan dengan kain sarung yang warnanya tidak terlalu jauh berbeda, yang penting harus seimbang dan serasi. Baju cele dipakai dalam upacara-upacara adat.</item>
+        <item>Pakaian Manteren Lamo (Sultan) adalah pakaian adat tradisional Maluku Utara yang terdiri atas celana panjang hitam dengan bis merah memanjang dari atas ke bawah, baju berbentuk jas tertutup dengan kancing besar terbuat dari perak berjumlah sembilan.</item>
+        <item>Nama pakaian adat Papua Barat adalah pakaian adat Ewer. Pakaian ini murni terbuat dari bahan alami yaitu jerami yang dikeringkan. </item>
+        <item>Pakaian adat pria dan wanita di Papua hampir sama bentuknya. Mereka memakai baju dan penutup badan bagian bawah dengan model yang sama. Mereka juga sama-sama memakai hiasan kepala berupa burung cendrawasih, gelang, kalung, dan ikat pinggang dari manik-manik, serta rumbai-rumbai pada pergelangan kaki.</item>
     </string-array>
     <array name="gambar1">
         <item>@drawable/aceh2</item>
@@ -288,13 +288,13 @@
         <item>@drawable/lampung2</item>
         <item>@drawable/jkt2</item>
         <item>@drawable/jabar2</item>
-        <item>@drawable/jateng2</item>
+        <item>@drawable/banten2</item>
         <item>@drawable/jateng2</item>
         <item>@drawable/yogyakarta2</item>
         <item>@drawable/jatim2</item>
         <item>@drawable/bali2</item>
         <item>@drawable/ntb2</item>
-        <item>@drawable/ntb2</item>
+        <item>@drawable/ntt2</item>
         <item>@drawable/kalutara2</item>
         <item>@drawable/kalbar2</item>
         <item>@drawable/kalmanteng2</item>
@@ -303,10 +303,10 @@
         <item>@drawable/sulut2</item>
         <item>@drawable/sulbar2</item>
         <item>@drawable/sulteng2</item>
-        <item>@drawable/sulteng2</item>
+        <item>@drawable/sutenggara2</item>
         <item>@drawable/sulsel2</item>
         <item>@drawable/gorontalo2</item>
-        <item>@drawable/malukuutara2</item>
+        <item>@drawable/adat_maluku2</item>
         <item>@drawable/malukuutara2</item>
         <item>@drawable/papuabarat2</item>
         <item>@drawable/papua2</item>

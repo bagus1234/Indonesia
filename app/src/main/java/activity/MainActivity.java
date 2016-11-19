@@ -19,7 +19,7 @@ import id.sch.smktelkom_mlg.project.xiirpl207172737.indonesia.R;
 public class MainActivity extends ActionBarActivity implements FragmentDrawer.FragmentDrawerListener {
 
     private static String TAG = MainActivity.class.getSimpleName();
-
+    public boolean isOnMenu;
     private Toolbar mToolbar;
     private FragmentDrawer drawerFragment;
 
@@ -28,6 +28,7 @@ public class MainActivity extends ActionBarActivity implements FragmentDrawer.Fr
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        isOnMenu = true;
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
 
         setSupportActionBar(mToolbar);
@@ -37,6 +38,7 @@ public class MainActivity extends ActionBarActivity implements FragmentDrawer.Fr
                 getSupportFragmentManager().findFragmentById(R.id.fragment_navigation_drawer);
         drawerFragment.setUp(R.id.fragment_navigation_drawer, (DrawerLayout) findViewById(R.id.drawer_layout), mToolbar);
         drawerFragment.setDrawerListener(this);
+
 
         // display the first navigation drawer view on app launch
         displayView(0);
@@ -50,6 +52,20 @@ public class MainActivity extends ActionBarActivity implements FragmentDrawer.Fr
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
+    }
+
+    @Override
+    public void onBackPressed() {
+        if (isOnMenu == false) {
+            Fragment fragment = new HomeFragment();
+            String title = getString(R.string.title_home);
+            FragmentManager fragmentManager = getSupportFragmentManager();
+            FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+            fragmentTransaction.replace(R.id.container_body, fragment);
+            fragmentTransaction.commit();
+            setActTitle(title);
+            isOnMenu = true;
+        }
     }
 
     @Override
@@ -81,8 +97,10 @@ public class MainActivity extends ActionBarActivity implements FragmentDrawer.Fr
     private void displayView(int position) {
         Fragment fragment = null;
         String title = getString(R.string.app_name);
+        isOnMenu = false;
         switch (position) {
             case 0:
+                isOnMenu = true;
                 fragment = new HomeFragment();
                 title = getString(R.string.title_home);
                 Toast.makeText(getApplicationContext(), "Anda berada di tampilan Beranda", Toast.LENGTH_SHORT).show();
@@ -133,6 +151,8 @@ public class MainActivity extends ActionBarActivity implements FragmentDrawer.Fr
 
 
         if (fragment != null) {
+
+
             FragmentManager fragmentManager = getSupportFragmentManager();
             FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
             fragmentTransaction.replace(R.id.container_body, fragment);

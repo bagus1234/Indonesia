@@ -55,40 +55,40 @@
         <item>Papua</item>
     </string-array>
     <string-array name="trailer_des">
-        <item>Di Aceh terdapat tari tradisional bernama Tari Saman </item>
-        <item>Sumatera Utara memiliki tari tradisional bernama Tari Tor-Tor</item>
-        <item>Sumatera Barat memiliki tari tradisional bernama Tari Piring</item>
-        <item>Riau memiliki tari tradisional bernama Tari Tandak</item>
-        <item>Kepulauan Riau memiliki tari tradisional bernama Tari Serampang Dua Belas</item>
-        <item>Jambi memiliki tari tradisional bernama Tari Sekapur Sirih</item>
-        <item>Sumatera Selatan memiliki tari tradisional bernama Tari Tanggai</item>
-        <item>Bangka Belitung memiliki tari tradisional bernama Tari Campak</item>
-        <item>Bengkulu memiliki tari tradisional bernama Tari Andun</item>
-        <item>Lampung memiliki tari tradisional bernama Tari Jangget</item>
-        <item>DKI Jakarta memiliki tari tradisional bernama Tari Topeng Betawi</item>
-        <item>Jawa Barat memiliki tari tradisional bernama Tari Merak</item>
-        <item>Banten memiliki tari tradisional bernama Tari Cokek</item>
-        <item>Jawa Tengah memiliki tari tradisional bernama Tari Serimpi</item>
-        <item>Daerah Istimewa Yogyakarta memiliki tari tradisional bernama Tari Bedhaya</item>
-        <item>Jawa Timur memiliki tari tradisional bernama Tari Remong</item>
-        <item>Bali memiliki tari tradisional bernama Tari Pendet</item>
-        <item>Nusa Tenggara Barat memiliki tari tradisional bernama Tari Gandrung</item>
-        <item>Nusa Tenggara Timur memiliki tari tradisional bernama Tari Caci</item>
-        <item>Kalimantan Utara memiliki tari tradisional bernama Tari Kancet Lodo</item>
-        <item>Kalimantan Barat memiliki tari tradisional bernama Tari Zapin</item>
-        <item>Kalimantan Tengah memiliki tari tradisional bernama Tari Hugo</item>
-        <item>Kalimantan Selatan memiliki tari tradisional bernama Tari Rahayu</item>
-        <item>Kalimantan Timur memiliki tari tradisional bernama Tari Gong</item>
-        <item>Sulawesi Utara memiliki tari tradisional bernama Tari Maengket</item>
-        <item>Sulawesi Barat memiliki tari tradisional bernama Tari Patuddu</item>
-        <item>Sulawesi Tengah memiliki tari tradisional bernama Tari Lumense</item>
-        <item>Sulawesi Tenggara memiliki tari tradisional bernama Tari Balumpa</item>
-        <item>Sulawesi Selatan memiliki tari tradisional bernama Tari Bosara</item>
-        <item>Gorontalo memiliki tari tradisional bernama Tari Saronde</item>
-        <item>Maluku memiliki tari tradisional bernama Tari Katreji</item>
-        <item>Maluku Utara memiliki tari tradisional bernama Tari Lenso</item>
-        <item>Papua Barat memiliki tari tradisional bernama Tari Perang</item>
-        <item>Papua memiliki tari tradisional bernama Tari Musyoh</item>
+        <item>Tarian Adat Tari Saman </item>
+        <item>Tarian Adat Tari Tor-Tor</item>
+        <item>Tarian Adat Tari Piring</item>
+        <item>Tarian Adat Tari Tandak</item>
+        <item>Tarian Adat Tari Serampang Dua Belas</item>
+        <item>Tarian Adat Tari Sekapur Sirih</item>
+        <item>Tarian Adat Tari Tanggai</item>
+        <item>Tarian Adat Tari Campak</item>
+        <item>Tarian Adat Tari Andun</item>
+        <item>Tarian Adat Tari Jangget</item>
+        <item>Tarian Adat Tari Topeng Betawi</item>
+        <item>Tarian Adat Tari Merak</item>
+        <item>Tarian Adat Tari Cokek</item>
+        <item>Tarian Adat Tari Serimpi</item>
+        <item>Tarian Adat Tari Bedhaya</item>
+        <item>Tarian Adat Tari Remong</item>
+        <item>Tarian Adat Tari Pendet</item>
+        <item>Tarian Adat Tari Gandrung</item>
+        <item>Tarian Adat Tari Caci</item>
+        <item>Tarian Adat Tari Kancet Lodo</item>
+        <item>Tarian Adat Tari Zapin</item>
+        <item>Tarian Adat Tari Hugo</item>
+        <item>Tarian Adat Tari Rahayu</item>
+        <item>Tarian Adat Tari Gong</item>
+        <item>Tarian Adat Tari Maengket</item>
+        <item>Tarian Adat Tari Patuddu</item>
+        <item>Tarian Adat Tari Lumense</item>
+        <item>Tarian Adat Tari Balumpa</item>
+        <item>Tarian Adat Tari Bosara</item>
+        <item>Tarian Adat Tari Saronde</item>
+        <item>Tarian Adat Tari Katreji</item>
+        <item>Tarian Adat Tari Lenso</item>
+        <item>Tarian Adat Tari Perang</item>
+        <item>Tarian Adat Tari Musyoh</item>
     </string-array>
     <string-array name="deskripsi">
         <item>Tari Saman adalah sebuah tarian Suku Gayo yang biasa ditampilkan untuk merayakan peristiwa-peristiwa penting dalam adat. Syair dalam tarian saman mempergunakan Bahasa Gayo. Selain itu biasanya tarian ini juga ditampilkan untuk merayakan kelahiran Nabi Muhammad SAW.</item>
@@ -139,12 +139,13 @@
         <item>@drawable/lampung</item>
         <item>@drawable/jkt</item>
         <item>@drawable/jabar</item>
+        <item>@drawable/banten</item>
         <item>@drawable/jateng</item>
         <item>@drawable/diy</item>
         <item>@drawable/jatim</item>
         <item>@drawable/bali</item>
         <item>@drawable/ntb</item>
-        <item>@drawable/ntb</item>
+        <item>@drawable/ntt</item>
         <item>@drawable/kalut</item>
         <item>@drawable/kalbar</item>
         <item>@drawable/kalteng</item>
@@ -159,7 +160,7 @@
         <item>@drawable/maluku</item>
         <item>@drawable/malut</item>
         <item>@drawable/pabar</item>
-        <item>@drawable/papua</item>
+        <item>@drawable/papuabarat</item>
         <item>@drawable/papua</item>
     </array>
 

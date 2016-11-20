@@ -6,33 +6,21 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
-import android.support.v4.view.MenuItemCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AlertDialog;
-import android.support.v7.widget.SearchView;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
-import java.util.ArrayList;
-
-import adapter.PakaianAdapter;
 import id.sch.smktelkom_mlg.project.xiirpl207172737.indonesia.R;
-import model.Pakaian;
 
-public class MainActivity extends ActionBarActivity implements FragmentDrawer.FragmentDrawerListener, PakaianAdapter.IPakaianAdapter {
+public class MainActivity extends ActionBarActivity implements FragmentDrawer.FragmentDrawerListener {
 
     private static String TAG = MainActivity.class.getSimpleName();
     public boolean isOnMenu;
-    ArrayList<Pakaian> mList = new ArrayList<>();
-    ArrayList<Pakaian> mListAll = new ArrayList<>();
-    boolean isFiltered;
-    ArrayList<Integer> mListMapFilter = new ArrayList<>();
-    String mQuery;
-    PakaianAdapter mAdapter;
     private Toolbar mToolbar;
     private FragmentDrawer drawerFragment;
 
@@ -65,50 +53,7 @@ public class MainActivity extends ActionBarActivity implements FragmentDrawer.Fr
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
 
-        MenuItem searchItem = menu.findItem(R.id.action_search);
-        SearchView searchView = (SearchView)
-                MenuItemCompat.getActionView(searchItem);
-
-        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
-            @Override
-            public boolean onQueryTextSubmit(String query) {
-                return false;
-            }
-
-            @Override
-            public boolean onQueryTextChange(String newText) {
-                mQuery = newText.toLowerCase();
-                doFilter(mQuery);
-                return true;
-            }
-        });
-
         return true;
-    }
-
-    private void doFilter(String query) {
-        if (!isFiltered) {
-            mListAll.clear();
-            mListAll.addAll(mList);
-            isFiltered = true;
-        }
-        mList.clear();
-        if (query == null || query.isEmpty()) {
-            mList.addAll(mListAll);
-            isFiltered = false;
-        } else {
-            mListMapFilter.clear();
-            for (int i = 0; i < mListAll.size(); i++) {
-                Pakaian pakaian = mListAll.get(i);
-                if (pakaian.judul.toLowerCase().contains(query) ||
-                        pakaian.deskripsi.toLowerCase().contains(query) ||
-                        pakaian.detail.toLowerCase().contains(query)) {
-                    mList.add(pakaian);
-                    mListMapFilter.add(i);
-                }
-            }
-        }
-        mAdapter.notifyDataSetChanged();
     }
 
     @Override
@@ -140,7 +85,7 @@ public class MainActivity extends ActionBarActivity implements FragmentDrawer.Fr
         }
 
         if (id == R.id.action_search) {
-            Toast.makeText(getApplicationContext(), "Search action is selected!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "Search on process!", Toast.LENGTH_SHORT).show();
             return true;
         }
 
@@ -226,8 +171,5 @@ public class MainActivity extends ActionBarActivity implements FragmentDrawer.Fr
         getSupportActionBar().setTitle(title);
     }
 
-    @Override
-    public void doClick(int pos) {
 
-    }
 }

@@ -471,7 +471,7 @@
         <item>Sumatera Selatan memiliki senjata tradisional yang bernama Tombak Trisula. Tombak ini berupa sebuah pedang kecil dengan mata tiga. Tombak Trisula diyakini berasal dari budaya Hindu dan Budha yang sempat berkembang di wilayah Kerajaan Sriwijaya di masa silam. Keyakinan ini didasari oleh kemiripan bentuk senjata tradisional ini dengan senjata tombak trisula milik Dewa Siwa dalam mitologi agama Hindu</item>
         <item>Siwar Panjang adalah sebuah pedang lurus, rata, pipih dan ringan yang 2 matanya tajam seperti silet. Senjata yang sekilas mirip dengan Mandau khas suku Dayak di Kalimantan ini dulunya digunakan sebagai alat perang masyarakat Bangka saat melawan penjajahan merebut kemerdekaan. </item>
         <item>Rambai ayam atau Jembio adalah senjata tradisional yang berupa senjata tusuk yang tajam disalah satu sisi dan ujung yang meruncing. Disebut rambai ayam karena bentuknya yang menyerupai ekor ayam / taji ayam. Pada umumnya Rambai Ayam berukuran antara 25 - 30 cm.</item>
-        <item>Terapang adalah senjata yang berwujud seperti sebulah keris dengan lekukan yang hanya sedikit, bahkan nyaris rata. Terapang juga dikenal dalam budaya masyarakat Melayu di Provinsi lainnya.</item>
+        <item>Senjata tradisional dari Lampung adalah terapang. Terapang adalah senjata yang berwujud seperti sebulah keris dengan lekukan yang hanya sedikit, bahkan nyaris rata. Terapang juga dikenal dalam budaya masyarakat Melayu di Provinsi lainnya.</item>
         <item>Senjata tradisional Jakarta adalah parang atau yang lebih dikenal dengan golok. Golok mempunyai ukuran dan wilahan yang beragam pula. Ada yang bentuknya pendek atau panjang dan ada pula yang tipis disamping yang tebal. Mata golok tajam sebelah. Golok diselipkan di depan perut dan umumnya banyak dipakai oleh para pendekar.</item>
         <item>Senjata khas dan unik dari provinsi Jawa Barat adalah kujang. Kujang mulai dibuat sekitar abad ke-8 atau ke-9. Kujang biasanya terbuat dari besi atau baja. Panjang kujang sekitar 20 cm hingga 25 cm, dan berat kujang bisa mencapai 300 gram. Selain sebagai senjata, masyarakat Jawa Barat menggunakan kujang juga sebagaialat pertanian, hiasan, maupun cenderamata. Kujang merupakan alat yang melambangkan kekuatan dan keberanian untuk melindungi hak dan kebenaran.</item>
         <item>Golok ciomas merupakan senjata khas dari Banten. Golok ciomas sebagai senjata simpanan untuk membela diri. Golok ini dikenal sebagai senjata yang dibawa para jawara Banten saat zaman penjajahan dulu. Golok ciomas memiliki keistimewaan dalam segi proses pembuatan. Hal itu pula yang memberikan nilai seni tersendiri bagi golok ciomas.</item>
@@ -498,39 +498,39 @@
         <item>Selain busur, panah dan tombak, masyarakat suku adat di Papua memiliki senjata tradisional pisau belati yang terbuat dari tulang burung kasuari atau terbuat dari bambu. Pisau ini bisa dibuat dari tulang kaki burung kasuari atau bambu dengan ujung yang meruncing, sedangkan gagangnya dihiasi oleh bulu burung kasuari. Senjata tradisional dari Papua dan Papua Barat yang dibuat dari tulang burung kasuari ini dipergunakan sebagai alat bantu dalam berburu dan mengambil hasil hutan.</item>
     </string-array>
     <array name="gambar4">
-        <item>@drawable/nada</item>
-        <item>@drawable/nada</item>
-        <item>@drawable/nada</item>
-        <item>@drawable/nada</item>
-        <item>@drawable/nada</item>
-        <item>@drawable/nada</item>
-        <item>@drawable/nada</item>
-        <item>@drawable/nada</item>
-        <item>@drawable/nada</item>
-        <item>@drawable/nada</item>
-        <item>@drawable/nada</item>
-        <item>@drawable/nada</item>
-        <item>@drawable/nada</item>
-        <item>@drawable/nada</item>
-        <item>@drawable/nada</item>
-        <item>@drawable/nada</item>
-        <item>@drawable/nada</item>
-        <item>@drawable/nada</item>
-        <item>@drawable/nada</item>
-        <item>@drawable/nada</item>
-        <item>@drawable/nada</item>
-        <item>@drawable/nada</item>
-        <item>@drawable/nada</item>
-        <item>@drawable/nada</item>
-        <item>@drawable/nada</item>
-        <item>@drawable/nada</item>
-        <item>@drawable/nada</item>
-        <item>@drawable/nada</item>
-        <item>@drawable/nada</item>
-        <item>@drawable/nada</item>
-        <item>@drawable/nada</item>
-        <item>@drawable/nada</item>
-        <item>@drawable/nada</item>
-        <item>@drawable/nada</item>
+        <item>@drawable/aceh5</item>
+        <item>@drawable/sumut5</item>
+        <item>@drawable/sumbar5</item>
+        <item>@drawable/riau5</item>
+        <item>@drawable/kepriau5</item>
+        <item>@drawable/jambi5</item>
+        <item>@drawable/sumsel5</item>
+        <item>@drawable/bb5</item>
+        <item>@drawable/bengkulu5</item>
+        <item>@drawable/lamp5</item>
+        <item>@drawable/jkt5</item>
+        <item>@drawable/jabar5</item>
+        <item>@drawable/ban5</item>
+        <item>@drawable/jateng5</item>
+        <item>@drawable/diy5</item>
+        <item>@drawable/jatim5</item>
+        <item>@drawable/bali5</item>
+        <item>@drawable/ntb5</item>
+        <item>@drawable/ntt5</item>
+        <item>@drawable/kalut5</item>
+        <item>@drawable/kalbar4</item>
+        <item>@drawable/kalteng4</item>
+        <item>@drawable/kalsel5</item>
+        <item>@drawable/kaltim5</item>
+        <item>@drawable/sulut5</item>
+        <item>@drawable/sulbar4</item>
+        <item>@drawable/sulteng5</item>
+        <item>@drawable/sultengg4</item>
+        <item>@drawable/sulsel4</item>
+        <item>@drawable/gor4</item>
+        <item>@drawable/maluku4</item>
+        <item>@drawable/malut5</item>
+        <item>@drawable/pabar4</item>
+        <item>@drawable/papua4</item>
     </array>
 </resources>

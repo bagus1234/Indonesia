@@ -28,6 +28,7 @@ public class TariAdapater extends RecyclerView.Adapter<TariAdapater.ViewHolder> 
     public TariAdapater(TariFragment context, ArrayList<Tari> tariList) {
         this.tariList = tariList;
         mITariAdapter = context;
+
     }
 
     @Override

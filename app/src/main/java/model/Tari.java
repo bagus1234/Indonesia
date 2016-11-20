@@ -12,6 +12,7 @@ public class Tari implements Serializable {
     public String detail;
     public String foto;
 
+
     public Tari(String judul, String deskripsi, String detail, String foto) {
         this.judul = judul;
         this.deskripsi = deskripsi;

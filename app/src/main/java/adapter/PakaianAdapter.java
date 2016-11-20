@@ -21,10 +21,6 @@ public class PakaianAdapter extends RecyclerView.Adapter<PakaianAdapter.ViewHold
     ArrayList<Pakaian> pakaianList;
     IPakaianAdapter mIPakaianAdapter;
 
-    public PakaianAdapter(ArrayList<Pakaian> pakaianList) {
-        this.pakaianList = pakaianList;
-    }
-
     public PakaianAdapter(PakaianFragment context, ArrayList<Pakaian> pakaianList) {
         this.pakaianList = pakaianList;
         mIPakaianAdapter = context;

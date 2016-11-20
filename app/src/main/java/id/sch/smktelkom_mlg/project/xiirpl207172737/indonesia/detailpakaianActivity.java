@@ -8,24 +8,24 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import activity.RumahFragment;
-import model.Rumah;
+import activity.PakaianFragment;
+import model.Pakaian;
 
-public class DetailRumahActivity extends AppCompatActivity {
+public class detailpakaianActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detail_rumah);
+        setContentView(R.layout.activity_detailpakaian);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        Rumah rumah = (Rumah) getIntent().getSerializableExtra(RumahFragment.RUMAH);
-        setTitle(rumah.judul);
+        Pakaian pakaian = (Pakaian) getIntent().getSerializableExtra(PakaianFragment.PAKAIAN);
+        setTitle(pakaian.judul);
         ImageView ivFoto = (ImageView) findViewById(R.id.imageFoto);
-        ivFoto.setImageURI(Uri.parse(rumah.foto));
+        ivFoto.setImageURI(Uri.parse(pakaian.foto));
         TextView tvDeskripsi = (TextView) findViewById(R.id.desc);
-        tvDeskripsi.setText(rumah.deskripsi + "\n\n" + rumah.detail);
+        tvDeskripsi.setText(pakaian.deskripsi + "\n\n" + pakaian.detail);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
@@ -35,5 +35,6 @@ public class DetailRumahActivity extends AppCompatActivity {
                 onBackPressed();
             }
         });
+
     }
 }

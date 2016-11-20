@@ -10,15 +10,15 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 import id.sch.smktelkom_mlg.project.xiirpl207172737.indonesia.R;
-import model.Lagu;
+import model.Senjata;
 
 /**
  * Created by Shafira Pramatana on 11/20/2016.
  */
-public class LaguAdapter extends RecyclerView.Adapter<LaguAdapter.ViewHolder> {
-    ArrayList<Lagu> laguList;
+public class SenjataAdapter extends RecyclerView.Adapter<SenjataAdapter.ViewHolder> {
+    ArrayList<Senjata> laguList;
 
-    public LaguAdapter(ArrayList<Lagu> laguList) {
+    public SenjataAdapter(ArrayList<Senjata> laguList) {
         this.laguList = laguList;
     }
 
@@ -31,7 +31,7 @@ public class LaguAdapter extends RecyclerView.Adapter<LaguAdapter.ViewHolder> {
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        Lagu lagu = laguList.get(position);
+        Senjata lagu = laguList.get(position);
         holder.tvJudul.setText(lagu.judul);
         holder.tvDeskripsi.setText(lagu.deskripsi);
         holder.ivFoto.setImageDrawable(lagu.foto);

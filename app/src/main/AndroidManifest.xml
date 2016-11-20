@@ -26,6 +26,10 @@
         <activity
             android:name=".DetailRumahActivity"
             android:label="@string/title_activity_detail_rumah"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".detailpakaianActivity"
+            android:label="@string/title_activity_detaikpakaian"
             android:theme="@style/MyMaterialTheme"></activity>
     </application>
 

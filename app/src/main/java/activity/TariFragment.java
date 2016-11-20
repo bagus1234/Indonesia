@@ -1,10 +1,11 @@
 package activity;
 
 import android.app.Activity;
+import android.content.ContentResolver;
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
@@ -17,13 +18,15 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 
 import adapter.TariAdapater;
+import id.sch.smktelkom_mlg.project.xiirpl207172737.indonesia.DetailActivity;
 import id.sch.smktelkom_mlg.project.xiirpl207172737.indonesia.R;
 import model.Tari;
 
 /**
  * Created by User on 13/11/2016.
  */
-public class TariFragment extends Fragment {
+public class TariFragment extends Fragment implements TariAdapater.ITariAdapter {
+    public static final String TARI = "tari";
     ArrayList<Tari> mList = new ArrayList<>();
     TariAdapater mAdapter;
     View view;
@@ -48,7 +51,7 @@ public class TariFragment extends Fragment {
         RecyclerView recyclerView = (RecyclerView) rootView.findViewById(R.id.recyclerView);
         LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
         recyclerView.setLayoutManager(layoutManager);
-        mAdapter = new TariAdapater(mList);
+        mAdapter = new TariAdapater(this, mList);
         recyclerView.setAdapter(mAdapter);
 
         fillData();
@@ -62,15 +65,20 @@ public class TariFragment extends Fragment {
         Resources resources = getResources();
         String[] arJudul = resources.getStringArray(R.array.kota);
         String[] arDeskripsi = resources.getStringArray(R.array.trailer_des);
+        String[] arDetail = resources.getStringArray(R.array.deskripsi);
         TypedArray a = resources.obtainTypedArray(R.array.gambar);
-        Drawable[] arFoto = new Drawable[a.length()];
+        String[] arFoto = new String[a.length()];
         for (int i = 0; i < arFoto.length; i++) {
-            arFoto[i] = a.getDrawable(i);
+            int id = a.getResourceId(i, 0);
+            arFoto[i] = ContentResolver.SCHEME_ANDROID_RESOURCE + "://"
+                    + resources.getResourcePackageName(id) + '/'
+                    + resources.getResourceTypeName(id) + '/'
+                    + resources.getResourceEntryName(id);
         }
         a.recycle();
 
         for (int i = 0; i < arJudul.length; i++) {
-            mList.add(new Tari(arJudul[i], arDeskripsi[i], arFoto[i]));
+            mList.add(new Tari(arJudul[i], arDeskripsi[i], arDetail[i], arFoto[i]));
         }
         mAdapter.notifyDataSetChanged();
     }
@@ -84,5 +92,12 @@ public class TariFragment extends Fragment {
     @Override
     public void onDetach() {
         super.onDetach();
+    }
+
+    @Override
+    public void doClick(int pos) {
+        Intent intent = new Intent(getActivity(), DetailActivity.class);
+        intent.putExtra(TARI, mList.get(pos));
+        startActivity(intent);
     }
 }

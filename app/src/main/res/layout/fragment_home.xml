@@ -66,7 +66,7 @@
         android:layout_alignLeft="@+id/imageButton2"
         android:layout_alignStart="@+id/imageButton2"
         android:layout_alignTop="@+id/imageButton3"
-        android:src="@drawable/lagu"
+        android:src="@drawable/senjata"
         app:layout_heightPercent="30%"
         app:layout_widthPercent="43%" />
 

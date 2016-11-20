@@ -30,6 +30,10 @@
         <activity
             android:name=".detailpakaianActivity"
             android:label="@string/title_activity_detaikpakaian"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".DetailSenjataActivity"
+            android:label="@string/title_activity_detail_senjata"
             android:theme="@style/MyMaterialTheme"></activity>
     </application>
 

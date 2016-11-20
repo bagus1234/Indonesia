@@ -121,4 +121,5 @@
     </string>
     <string name="title_activity_detaikpakaian">detailkpakaianActivity</string>
     <string name="title_activity_detail_rumah">DetailRumahActivity</string>
+    <string name="title_activity_detail_senjata">DetailSenjataActivity</string>
 </resources>

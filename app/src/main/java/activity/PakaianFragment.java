@@ -17,8 +17,8 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 
 import adapter.PakaianAdapter;
-import id.sch.smktelkom_mlg.project.xiirpl207172737.indonesia.DetailActivity;
 import id.sch.smktelkom_mlg.project.xiirpl207172737.indonesia.R;
+import id.sch.smktelkom_mlg.project.xiirpl207172737.indonesia.detailpakaianActivity;
 import model.Pakaian;
 
 /**
@@ -63,8 +63,8 @@ public class PakaianFragment extends Fragment implements PakaianAdapter.IPakaian
         Resources resources = getResources();
         String[] arJudul = resources.getStringArray(R.array.kota);
         String[] arDeskripsi = resources.getStringArray(R.array.trailer_des1);
-        String[] arDetail = resources.getStringArray(R.array.deskripsi);
-        TypedArray a = resources.obtainTypedArray(R.array.gambar);
+        String[] arDetail = resources.getStringArray(R.array.deskripsi1);
+        TypedArray a = resources.obtainTypedArray(R.array.gambar1);
         String[] arFoto = new String[a.length()];
         for (int i = 0; i < arFoto.length; i++) {
             int id = a.getResourceId(i, 0);
@@ -95,7 +95,7 @@ public class PakaianFragment extends Fragment implements PakaianAdapter.IPakaian
 
     @Override
     public void doClick(int pos) {
-        Intent intent = new Intent(getActivity(), DetailActivity.class);
+        Intent intent = new Intent(getActivity(), detailpakaianActivity.class);
         intent.putExtra(PAKAIAN, mList.get(pos));
         startActivity(intent);
     }

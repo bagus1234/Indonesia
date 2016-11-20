@@ -114,9 +114,9 @@ public class MainActivity extends ActionBarActivity implements FragmentDrawer.Fr
                 Toast.makeText(getApplicationContext(), "Anda berada di tampilan tari daerah", Toast.LENGTH_SHORT).show();
                 break;
             case 2:
-                fragment = new LaguFragment();
-                title = getString(R.string.title_lagu);
-                Toast.makeText(getApplicationContext(), "Anda berada di tampilan lagu daerah", Toast.LENGTH_SHORT).show();
+                fragment = new SenjataFragment();
+                title = getString(R.string.title_senjata);
+                Toast.makeText(getApplicationContext(), "Anda berada di tampilan senjata daerah", Toast.LENGTH_SHORT).show();
                 break;
 
             case 3:

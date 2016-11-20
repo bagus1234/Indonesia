@@ -7,7 +7,7 @@
 
     <string name="nav_item_home">Beranda</string>
     <string name="nav_item_tari">Tari</string>
-    <string name="nav_item_lagu">Lagu</string>
+    <string name="nav_item_senjata">Senjata</string>
     <string name="nav_item_pakaian">Pakaian</string>
     <string name="nav_item_rumah">Rumah Adat</string>
     <string name="nav_item_exit">Keluar</string>
@@ -15,14 +15,14 @@
     <string-array name="nav_drawer_labels">
         <item>@string/nav_item_home</item>
         <item>@string/nav_item_tari</item>
-        <item>@string/nav_item_lagu</item>
+        <item>@string/nav_item_senjata</item>
         <item>@string/nav_item_pakaian</item>
         <item>@string/nav_item_rumah</item>
         <item>@string/nav_item_exit</item>
     </string-array>
     <string name="title_home">Beranda</string>
     <string name="title_tari">Tari</string>
-    <string name="title_lagu">Lagu</string>
+    <string name="title_senjata">Senjata</string>
     <string name="title_pakaian">Pakaian</string>
     <string name="title_rumah">Rumah Adat</string>
     <string name="title_exit">Keluar</string>

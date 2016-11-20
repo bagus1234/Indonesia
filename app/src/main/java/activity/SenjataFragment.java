@@ -15,21 +15,21 @@ import android.view.ViewGroup;
 
 import java.util.ArrayList;
 
-import adapter.LaguAdapter;
+import adapter.SenjataAdapter;
 import id.sch.smktelkom_mlg.project.xiirpl207172737.indonesia.R;
-import model.Lagu;
+import model.Senjata;
 
 /**
  * Created by User on 13/11/2016.
  */
 
-public class LaguFragment extends Fragment {
-    ArrayList<Lagu> mList = new ArrayList<>();
-    LaguAdapter mAdapter;
+public class SenjataFragment extends Fragment {
+    ArrayList<Senjata> mList = new ArrayList<>();
+    SenjataAdapter mAdapter;
     View view;
     Context context;
 
-    public LaguFragment() {
+    public SenjataFragment() {
         // Required empty public constructor
     }
 
@@ -42,14 +42,14 @@ public class LaguFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.activity_lagu_fragment, container, false);
+        View rootView = inflater.inflate(R.layout.activity_senjata_fragment, container, false);
 
         context = getContext();
 
-        RecyclerView recyclerView = (RecyclerView) rootView.findViewById(R.id.lagu);
+        RecyclerView recyclerView = (RecyclerView) rootView.findViewById(R.id.senjata);
         LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
         recyclerView.setLayoutManager(layoutManager);
-        mAdapter = new LaguAdapter(mList);
+        mAdapter = new SenjataAdapter(mList);
         recyclerView.setAdapter(mAdapter);
 
         fillData();
@@ -70,7 +70,7 @@ public class LaguFragment extends Fragment {
         a.recycle();
 
         for (int i = 0; i < arJudul.length; i++) {
-            mList.add(new Lagu(arJudul[i], arDeskripsi[i], arFoto[i]));
+            mList.add(new Senjata(arJudul[i], arDeskripsi[i], arFoto[i]));
         }
         mAdapter.notifyDataSetChanged();
     }

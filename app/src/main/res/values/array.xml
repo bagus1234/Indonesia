@@ -222,6 +222,8 @@
         <item>Pakaian adat tradisional Bali sesungguhnya sangat bervariasi, meskipun secara selintas kelihatannya sama. Masing-masing daerah di Bali mempunyai ciri khas simbolik dan ornamen, berdasarkan kegiatan/upacara, jenis kelamin dan umur penggunanya.</item>
         <item>Pakaian adat lambung adalah pakaian adat NTB yang digunakan khusus untuk wanita saat menyambut tamu dan dalam upacara adat mendakin atau nyongkol. Baju pegon khusus dikenakan oleh para pria. Baju ini dipercaya merupakan hasil adaptasi kebudayaan Eropa dan Jawa yang terbawa ke NTB di masa silam.</item>
         <item>Ti’langga merupakan aksesoris dari pakaian adat tradisional untuk pria Rote, Nusa Tenggara Timur. Untuk wanita, biasanya mengenakan baju kebaya pendek dan bagain bawahnya mengenakan kain tenun.</item>
+        <item>Ta’a dan Sapei Sapaq dikenal luas sebagai pakaian adat Kalimantan Timur. Kendati begitu, provinsi Kalimantan Utara juga mengakui bahwa kedua pakaian ini sebagai pakaian adatnya. Adapun meski memiliki nama yang sama, Ta’a dan Sapei Sapaq khas Kalimantan Timur dan yang khas Kalimantan Barat sebetulnya mempunyai perbedaan mencolok. Sebelum membahas tentang perbedaan-perbedaan tersebut, terlebih dahulu mari kita mengenali apa itu pakaian Ta’a dan Sapei Sapaq.</item>
+        >
         <item>Pakaian adat trasional Kalimantan Barat berbahan kulit kayu yang diproses menjadi kain. Untuk bahan utama yang digunakan sebagai bahan pakaian adat tradisional Kalimantan Barat adalah kulit kayu kapuo atau ampuro.</item>
         <item>Untuk pakaian adat tradisional pengantin pria di Kalimantan Tengah memakai celana panjang sampai lutut, selempit perak atau tali pinggang dan tutup kepala. Pengantin wanita memakai kain berupa rok pendek, rompi, ikat kepala dengan hiasan bulu enggang, kalung dan subang.</item>
         <item>Bagajah Gamuling Baular Lulut adalah nama Pakaian pengantin Banjar propinsi Kalimantan Selatan. Pakaian pengantin Banjar yang banyak dipengaruhi budaya Hindu yang terlihat begitu eksotik. Dipenuhi roncean bunga melati dan mawar yang disebut bogam, juga rangkaian melati yang sebut karang jagung.</item>
@@ -257,7 +259,6 @@
         <item>@drawable/bali2</item>
         <item>@drawable/ntb2</item>
         <item>@drawable/ntt2</item>
-        <item>@drawable/kalutara2</item>
         <item>@drawable/kalutara2</item>
         <item>@drawable/kalbar2</item>
         <item>@drawable/kalmanteng2</item>

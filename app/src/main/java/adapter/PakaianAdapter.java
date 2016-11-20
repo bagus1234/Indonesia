@@ -66,6 +66,15 @@ public class PakaianAdapter extends RecyclerView.Adapter<PakaianAdapter.ViewHold
             ivFoto = (ImageView) itemView.findViewById(R.id.imageView);
             tvJudul = (TextView) itemView.findViewById(R.id.textViewJudul);
             tvDeskripsi = (TextView) itemView.findViewById(R.id.textViewDeskripsi);
+
+            itemView.setOnClickListener(new View.OnClickListener() {
+
+                @Override
+                public void onClick(View v) {
+                    mIPakaianAdapter.doClick(getAdapterPosition());
+                }
+            });
         }
+
     }
 }

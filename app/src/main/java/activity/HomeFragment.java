@@ -86,9 +86,9 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
                 break;
 
             case R.id.imageButton4:
-                fragment = new LaguFragment();
-                title = getString(R.string.title_lagu);
-                Toast.makeText(activity, "Anda berada di tampilan lagu daerah", Toast.LENGTH_SHORT).show();
+                fragment = new SenjataFragment();
+                title = getString(R.string.title_senjata);
+                Toast.makeText(activity, "Anda berada di tampilan senjata daerah", Toast.LENGTH_SHORT).show();
                 break;
         }
 

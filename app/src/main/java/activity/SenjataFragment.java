@@ -1,10 +1,11 @@
 package activity;
 
 import android.app.Activity;
+import android.content.ContentResolver;
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
@@ -16,6 +17,7 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 
 import adapter.SenjataAdapter;
+import id.sch.smktelkom_mlg.project.xiirpl207172737.indonesia.DetailSenjataActivity;
 import id.sch.smktelkom_mlg.project.xiirpl207172737.indonesia.R;
 import model.Senjata;
 
@@ -23,7 +25,8 @@ import model.Senjata;
  * Created by User on 13/11/2016.
  */
 
-public class SenjataFragment extends Fragment {
+public class SenjataFragment extends Fragment implements SenjataAdapter.ISenjataAdapter {
+    public static final String SENJATA = "senjata";
     ArrayList<Senjata> mList = new ArrayList<>();
     SenjataAdapter mAdapter;
     View view;
@@ -49,7 +52,7 @@ public class SenjataFragment extends Fragment {
         RecyclerView recyclerView = (RecyclerView) rootView.findViewById(R.id.senjata);
         LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
         recyclerView.setLayoutManager(layoutManager);
-        mAdapter = new SenjataAdapter(mList);
+        mAdapter = new SenjataAdapter(this, mList);
         recyclerView.setAdapter(mAdapter);
 
         fillData();
@@ -62,15 +65,20 @@ public class SenjataFragment extends Fragment {
         Resources resources = getResources();
         String[] arJudul = resources.getStringArray(R.array.kota4);
         String[] arDeskripsi = resources.getStringArray(R.array.trailer_des4);
+        String[] arDetail = resources.getStringArray(R.array.deskripsi4);
         TypedArray a = resources.obtainTypedArray(R.array.gambar4);
-        Drawable[] arFoto = new Drawable[a.length()];
+        String[] arFoto = new String[a.length()];
         for (int i = 0; i < arFoto.length; i++) {
-            arFoto[i] = a.getDrawable(i);
+            int id = a.getResourceId(i, 0);
+            arFoto[i] = ContentResolver.SCHEME_ANDROID_RESOURCE + "://"
+                    + resources.getResourcePackageName(id) + '/'
+                    + resources.getResourceTypeName(id) + '/'
+                    + resources.getResourceEntryName(id);
         }
         a.recycle();
 
         for (int i = 0; i < arJudul.length; i++) {
-            mList.add(new Senjata(arJudul[i], arDeskripsi[i], arFoto[i]));
+            mList.add(new Senjata(arJudul[i], arDeskripsi[i], arDetail[i], arFoto[i]));
         }
         mAdapter.notifyDataSetChanged();
     }
@@ -83,6 +91,13 @@ public class SenjataFragment extends Fragment {
     @Override
     public void onDetach() {
         super.onDetach();
+    }
+
+    @Override
+    public void doClick(int pos) {
+        Intent intent = new Intent(getActivity(), DetailSenjataActivity.class);
+        intent.putExtra(SENJATA, mList.get(pos));
+        startActivity(intent);
     }
 }
 

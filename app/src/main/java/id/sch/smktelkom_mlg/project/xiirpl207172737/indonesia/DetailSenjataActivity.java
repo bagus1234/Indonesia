@@ -8,25 +8,24 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import activity.TariFragment;
-import model.Tari;
+import activity.SenjataFragment;
+import model.Senjata;
 
-public class DetailActivity extends AppCompatActivity {
+public class DetailSenjataActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detail);
+        setContentView(R.layout.activity_detail_senjata);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-
-        Tari tari = (Tari) getIntent().getSerializableExtra(TariFragment.TARI);
-        setTitle(tari.judul);
+        Senjata senjata = (Senjata) getIntent().getSerializableExtra(SenjataFragment.SENJATA);
+        setTitle(senjata.judul);
         ImageView ivFoto = (ImageView) findViewById(R.id.imageFoto);
-        ivFoto.setImageURI(Uri.parse(tari.foto));
+        ivFoto.setImageURI(Uri.parse(senjata.foto));
         TextView tvDeskripsi = (TextView) findViewById(R.id.desc);
-        tvDeskripsi.setText(tari.deskripsi + "\n\n" + tari.detail);
+        tvDeskripsi.setText(senjata.deskripsi + "\n\n" + senjata.detail);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
@@ -37,6 +36,4 @@ public class DetailActivity extends AppCompatActivity {
             }
         });
     }
-
-
 }

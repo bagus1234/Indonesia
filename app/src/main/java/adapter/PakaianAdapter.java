@@ -1,5 +1,6 @@
 package adapter;
 
+import android.net.Uri;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,6 +10,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+import activity.PakaianFragment;
 import id.sch.smktelkom_mlg.project.xiirpl207172737.indonesia.R;
 import model.Pakaian;
 
@@ -17,9 +19,15 @@ import model.Pakaian;
  */
 public class PakaianAdapter extends RecyclerView.Adapter<PakaianAdapter.ViewHolder> {
     ArrayList<Pakaian> pakaianList;
+    IPakaianAdapter mIPakaianAdapter;
 
     public PakaianAdapter(ArrayList<Pakaian> pakaianList) {
         this.pakaianList = pakaianList;
+    }
+
+    public PakaianAdapter(PakaianFragment context, ArrayList<Pakaian> pakaianList) {
+        this.pakaianList = pakaianList;
+        mIPakaianAdapter = context;
     }
 
     @Override
@@ -34,7 +42,7 @@ public class PakaianAdapter extends RecyclerView.Adapter<PakaianAdapter.ViewHold
         Pakaian pakaian = pakaianList.get(position);
         holder.tvJudul.setText(pakaian.judul);
         holder.tvDeskripsi.setText(pakaian.deskripsi);
-        holder.ivFoto.setImageDrawable(pakaian.foto);
+        holder.ivFoto.setImageURI(Uri.parse(pakaian.foto));
     }
 
     @Override
@@ -42,6 +50,10 @@ public class PakaianAdapter extends RecyclerView.Adapter<PakaianAdapter.ViewHold
         if (pakaianList != null)
             return pakaianList.size();
         return 0;
+    }
+
+    public interface IPakaianAdapter {
+        void doClick(int pos);
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {

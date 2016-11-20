@@ -22,6 +22,10 @@
         <activity
             android:name=".DetailActivity"
             android:label="@string/title_activity_detail"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".detailpakaianActivity"
+            android:label="@string/title_activity_detaikpakaian"
             android:theme="@style/MyMaterialTheme"></activity>
     </application>
 

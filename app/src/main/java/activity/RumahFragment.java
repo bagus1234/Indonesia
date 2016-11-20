@@ -1,10 +1,11 @@
 package activity;
 
 import android.app.Activity;
+import android.content.ContentResolver;
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
@@ -16,6 +17,7 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 
 import adapter.RumahAdapter;
+import id.sch.smktelkom_mlg.project.xiirpl207172737.indonesia.DetailRumahActivity;
 import id.sch.smktelkom_mlg.project.xiirpl207172737.indonesia.R;
 import model.Rumah;
 
@@ -23,7 +25,8 @@ import model.Rumah;
  * Created by User on 13/11/2016.
  */
 
-public class RumahFragment extends Fragment {
+public class RumahFragment extends Fragment implements RumahAdapter.IRumahAdapter {
+    public static final String RUMAH = "rumah";
     ArrayList<Rumah> mList = new ArrayList<>();
     RumahAdapter mAdapter;
     Context context;
@@ -47,7 +50,7 @@ public class RumahFragment extends Fragment {
         RecyclerView recyclerView = (RecyclerView) rootView.findViewById(R.id.rumah);
         LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
         recyclerView.setLayoutManager(layoutManager);
-        mAdapter = new RumahAdapter(mList);
+        mAdapter = new RumahAdapter(this, mList);
         recyclerView.setAdapter(mAdapter);
 
 
@@ -61,15 +64,20 @@ public class RumahFragment extends Fragment {
         Resources resources = getResources();
         String[] arJudul = resources.getStringArray(R.array.kota);
         String[] arDeskripsi = resources.getStringArray(R.array.trailer_des3);
+        String[] arDetail = resources.getStringArray(R.array.deskripsi3);
         TypedArray a = resources.obtainTypedArray(R.array.gambar3);
-        Drawable[] arFoto = new Drawable[a.length()];
+        String[] arFoto = new String[a.length()];
         for (int i = 0; i < arFoto.length; i++) {
-            arFoto[i] = a.getDrawable(i);
+            int id = a.getResourceId(i, 0);
+            arFoto[i] = ContentResolver.SCHEME_ANDROID_RESOURCE + "://"
+                    + resources.getResourcePackageName(id) + '/'
+                    + resources.getResourceTypeName(id) + '/'
+                    + resources.getResourceEntryName(id);
         }
         a.recycle();
 
         for (int i = 0; i < arJudul.length; i++) {
-            mList.add(new Rumah(arJudul[i], arDeskripsi[i], arFoto[i]));
+            mList.add(new Rumah(arJudul[i], arDeskripsi[i], arDetail[i], arFoto[i]));
         }
         mAdapter.notifyDataSetChanged();
     }
@@ -83,5 +91,12 @@ public class RumahFragment extends Fragment {
     @Override
     public void onDetach() {
         super.onDetach();
+    }
+
+    @Override
+    public void doClick(int pos) {
+        Intent intent = new Intent(getActivity(), DetailRumahActivity.class);
+        intent.putExtra(RUMAH, mList.get(pos));
+        startActivity(intent);
     }
 }

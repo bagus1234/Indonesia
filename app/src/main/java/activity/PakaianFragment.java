@@ -37,6 +37,7 @@ public class PakaianFragment extends Fragment implements PakaianAdapter.IPakaian
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
     }
 

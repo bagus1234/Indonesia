@@ -1,19 +1,21 @@
 package model;
 
-import android.graphics.drawable.Drawable;
+import java.io.Serializable;
 
 /**
  * Created by Broom on 19/11/2016.
  */
 
-public class Rumah {
+public class Rumah implements Serializable {
     public String judul;
     public String deskripsi;
-    public Drawable foto;
+    public String detail;
+    public String foto;
 
-    public Rumah(String judul, String deskripsi, Drawable foto) {
+    public Rumah(String judul, String deskripsi, String detail, String foto) {
         this.judul = judul;
         this.deskripsi = deskripsi;
+        this.detail = detail;
         this.foto = foto;
     }
 }

@@ -1,5 +1,6 @@
 package adapter;
 
+import android.net.Uri;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,6 +10,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+import activity.RumahFragment;
 import id.sch.smktelkom_mlg.project.xiirpl207172737.indonesia.R;
 import model.Rumah;
 
@@ -19,8 +21,15 @@ import model.Rumah;
 
 public class RumahAdapter extends RecyclerView.Adapter<RumahAdapter.ViewHolder> {
     ArrayList<Rumah> rumahList;
+    IRumahAdapter mIRumahAdapter;
+
+    public RumahAdapter(RumahFragment context, ArrayList<Rumah> rumahList) {
+        this.rumahList = rumahList;
+        mIRumahAdapter = context;
+    }
 
     public RumahAdapter(ArrayList<Rumah> rumahList) {
+
         this.rumahList = rumahList;
     }
 
@@ -36,7 +45,7 @@ public class RumahAdapter extends RecyclerView.Adapter<RumahAdapter.ViewHolder> 
         Rumah rumah = rumahList.get(position);
         holder.tvJudul.setText(rumah.judul);
         holder.tvDeskripsi.setText(rumah.deskripsi);
-        holder.ivFoto.setImageDrawable(rumah.foto);
+        holder.ivFoto.setImageURI(Uri.parse(rumah.foto));
     }
 
     @Override
@@ -44,6 +53,10 @@ public class RumahAdapter extends RecyclerView.Adapter<RumahAdapter.ViewHolder> 
         if (rumahList != null)
             return rumahList.size();
         return 0;
+    }
+
+    public interface IRumahAdapter {
+        void doClick(int pos);
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
@@ -56,6 +69,14 @@ public class RumahAdapter extends RecyclerView.Adapter<RumahAdapter.ViewHolder> 
             ivFoto = (ImageView) itemView.findViewById(R.id.imageView);
             tvJudul = (TextView) itemView.findViewById(R.id.textViewJudul);
             tvDeskripsi = (TextView) itemView.findViewById(R.id.textViewDeskripsi);
+
+            itemView.setOnClickListener(new View.OnClickListener() {
+
+                @Override
+                public void onClick(View v) {
+                    mIRumahAdapter.doClick(getAdapterPosition());
+                }
+            });
         }
     }
 }

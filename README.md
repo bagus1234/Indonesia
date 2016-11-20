@@ -10,7 +10,10 @@ mengenai Rumah adat,Tarian daerah, Pakaian adat, dan senjata tradisional. Dengan
 mempermudah seseorang untuk mendapatkan informasi mengenai budaya indonesia.
 
 ##Screenshoot Aplikasi.
-
+![Introscreen](https://cloud.githubusercontent.com/assets/15699471/20464070/257555d2-af73-11e6-8950-b82b18c1281c.JPG)
+![](https://cloud.githubusercontent.com/assets/15699471/20464069/25751c7a-af73-11e6-8dc7-3b16d6c68216.JPG)
+![new2](https://cloud.githubusercontent.com/assets/15699471/20464072/27b7174a-af73-11e6-9f96-b9b5b7533544.JPG)
+![new3](https://cloud.githubusercontent.com/assets/15699471/20464071/27b3a830-af73-11e6-8a94-e96874160a7e.JPG)
 ![beranda](https://cloud.githubusercontent.com/assets/21327058/20463597/8318fbd0-af69-11e6-98cd-cc1eb9393ff5.JPG)
 ![detaiktari](https://cloud.githubusercontent.com/assets/21327058/20463598/87258a18-af69-11e6-8743-69e2fc9f0f28.JPG)
 ![detailpakaian](https://cloud.githubusercontent.com/assets/21327058/20463600/8cfed552-af69-11e6-938c-14424f2d854e.JPG)
@@ -20,9 +23,10 @@ mempermudah seseorang untuk mendapatkan informasi mengenai budaya indonesia.
 
 
 ##Video Aplikasi.
-
+https://www.youtube.com/watch?v=QrtvYkQClzs&feature=youtu.be
 
 ##Link File Apk dari Aplikasi.
+https://drive.google.com/open?id=0B6S27B-0MutvYzNCblF0bmhXaDA
 
 
 

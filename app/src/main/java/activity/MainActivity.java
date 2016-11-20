@@ -40,6 +40,7 @@ public class MainActivity extends ActionBarActivity implements FragmentDrawer.Fr
         drawerFragment.setUp(R.id.fragment_navigation_drawer, (DrawerLayout) findViewById(R.id.drawer_layout), mToolbar);
         drawerFragment.setDrawerListener(this);
 
+        MenuItem search = (MenuItem) findViewById(R.id.action_search);
 
         // display the first navigation drawer view on app launch
         displayView(0);
@@ -52,6 +53,7 @@ public class MainActivity extends ActionBarActivity implements FragmentDrawer.Fr
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
+
 
         return true;
     }

@@ -1,6 +1,7 @@
 package activity;
 
 import android.app.Activity;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -8,7 +9,6 @@ import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
@@ -20,7 +20,7 @@ import id.sch.smktelkom_mlg.project.xiirpl207172737.indonesia.R;
 
 public class HomeFragment extends Fragment implements View.OnClickListener {
 
-    Button btnHome;
+    MediaPlayer mediaplayer;
     public HomeFragment() {
         // Required empty public constructor
 
@@ -48,13 +48,43 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         btn3.setOnClickListener(this);
         btn4.setOnClickListener(this);
 
+        mediaplayer = MediaPlayer.create(getActivity(), R.raw.selamat);
+
 
         return rootView;
     }
 
-    private void isidata() {
+    @Override
+    public void onStart() {
+        super.onStart();
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        mediaplayer.start();
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        mediaplayer.pause();
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+    }
+
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        if (mediaplayer != null)
+            mediaplayer.release();
 
     }
+
 
     public void onClick(View v) {
         //do what you want to do when button is clicked

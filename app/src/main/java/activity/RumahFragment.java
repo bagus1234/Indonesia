@@ -59,7 +59,7 @@ public class RumahFragment extends Fragment {
 
     private void filldata() {
         Resources resources = getResources();
-        String[] arJudul = resources.getStringArray(R.array.kota3);
+        String[] arJudul = resources.getStringArray(R.array.kota);
         String[] arDeskripsi = resources.getStringArray(R.array.trailer_des3);
         TypedArray a = resources.obtainTypedArray(R.array.gambar3);
         Drawable[] arFoto = new Drawable[a.length()];

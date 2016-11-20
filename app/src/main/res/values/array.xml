@@ -165,44 +165,6 @@
 
     <!--    PAKAIAN ADAT-->
 
-    <string-array name="kota1">
-        <item>Aceh</item>
-        <item>Sumatera Utara</item>
-        <item>Sumatera Barat</item>
-        <item>Riau</item>
-        <item>Kepulauan Riau</item>
-        <item>Jambi</item>
-        <item>Sumatera Selatan</item>
-        <item>Bangka Belitung</item>
-        <item>Bengkulu</item>
-        <item>Lampung</item>
-        <item>DKI Jakarta</item>
-        <item>Jawa Barat</item>
-        <item>Banten</item>
-        <item>Jawa Tengah</item>
-        <item>Daerah Istimewa Yogyakarta</item>
-        <item>Jawa Timur</item>
-        <item>Bali</item>
-        <item>Nusa Tenggara Barat</item>
-        <item>Nusa Tenggara Timur</item>
-        <item>Kalimantan Utara</item>
-        <item>Kalimantan Barat</item>
-        <item>Kalimantan Tengah</item>
-        <item>Kalimantan Selatan</item>
-        <item>Kalimantan Timur</item>
-        <item>Sulawesi Utara</item>
-        <item>Sulawesi Barat</item>
-        <item>Sulawesi Tengah</item>
-        <item>Sulawesi Tenggara</item>
-        <item>Sulawesi Selatan</item>
-        <item>Gorontalo</item>
-        <item>Maluku</item>
-        <item>Maluku Utara</item>
-        <item>Papua Barat</item>
-        <item>Papua</item>
-    </string-array>
-
-
     <string-array name="trailer_des1">
         <item>Pakaian Adat Tradisional Ulee Balang</item>
         <item>Pakaian Adat Tradisional Ulos</item>
@@ -315,42 +277,6 @@
 
     --- Rumah --
 
-    <string-array name="kota3">
-        <item>Aceh</item>
-        <item>Sumatera Utara</item>
-        <item>Sumatera Barat</item>
-        <item>Riau</item>
-        <item>Kepulauan Riau</item>
-        <item>Jambi</item>
-        <item>Sumatera Selatan</item>
-        <item>Bangka Belitung</item>
-        <item>Bengkulu</item>
-        <item>Lampung</item>
-        <item>DKI Jakarta</item>
-        <item>Jawa Barat</item>
-        <item>Banten</item>
-        <item>Jawa Tengah</item>
-        <item>Daerah Istimewa Yogyakarta</item>
-        <item>Jawa Timur</item>
-        <item>Bali</item>
-        <item>Nusa Tenggara Barat</item>
-        <item>Nusa Tenggara Timur</item>
-        <item>Kalimantan Utara</item>
-        <item>Kalimantan Barat</item>
-        <item>Kalimantan Tengah</item>
-        <item>Kalimantan Selatan</item>
-        <item>Kalimantan Timur</item>
-        <item>Sulawesi Utara</item>
-        <item>Sulawesi Barat</item>
-        <item>Sulawesi Tengah</item>
-        <item>Sulawesi Tenggara</item>
-        <item>Sulawesi Selatan</item>
-        <item>Gorontalo</item>
-        <item>Maluku</item>.
-        <item>Maluku Utara</item>
-        <item>Papua Barat</item>
-        <item>Papua</item>
-    </string-array>
     <string-array name="trailer_des3">
         <item>Rumah Adat Tradisional Krong Bade </item>
         <item>Rumah Adat Tradisional Bolon</item>
@@ -419,9 +345,9 @@
         <item>Rumah Tongkonan merupakan rumah adat suku Toraja, Sulawesi Selatan. Rumah adat ini memiliki ciri khas yang mencolok di bagian atanya. Ya, atap rumah ini berbentuk lengkung seperti perahu. Selain itu dibagian tersebut juga terdaat deretan tanduk kerbau yang berda di bagian depan rumah. Nah, uniknya lagi, rumah adat ini memiliki dua fungsi. Yakni sebagai tempat tinggal dan juga tempat penyimpanan mayat. Tetapi keduanya terpisah, tidak dijadikan satu.</item>
         <item>Rumah Adat Dulohupa merupakan rumah adat dari provinsi Gorontalo. Rumah adat di Indonesia ini memiliki aksen atap yang cukup berseni dengan struktur bangunan khas rumah panggung. Sebagian besar material yang dipakai untuk membangun rumah ini adalah kayu asli. Sama seperti rumah adat sebelumnya, rumah adat dulohupa mempunyai dua fungsi, yakni sebagai tempat tinggal dan juga balai musyawarah. Jadi bisa dibilang bahwa rumah adat ini adalah lambang kerukunan masyarakat Gorontalo. Sehingga dulohupa memiliki nilai filosofi yang luhur khususnya tentang kebersamaan, musyawarah dan gotong royong.</item>
         <item>Rumah Baileo adalah identitas setiap negeri di Maluku selain Masjid atau Gereja.[2] Baileo berfungsi sebagai tempat penyimpanan benda-benda suci, tempat upacara adat, sekaligus sebagai balai warga. Ciri utama rumah Baileo adalah ukurannya besar, dan memiliki bentuk yang berbeda jika dibandingkan dengan rumah-rumah lain di sekitarnya.</item>
-        <item>Maluku Utara</item>
-        <item>Papua Barat</item>
-        <item>Papua</item>
+        <item>Rumah adat Sasadu merupakan rumah adat yang diwariskan oleh leluhur suku Sahu di Pulau Halmahera Barat, Maluku Utara. Rumah adat Sasadu memiliki bentuk yang simpel atau sederhana yaitu berupa rumah panggung yang dibangun menggunakan bahan kayu sebagai pilar atau tiang penyangga yang berasal dari batang pohon sagu, anyaman daun sagu sebagai penutup atap rumah adat dan memiliki dua pijakan tangga terletak di sisi kiri dan kanan. </item>
+        <item>Rumah adat tersebut dikenal dengan nama Mod Aki Aksa yang artinya rumah kaki seribu. Rumah tersebut disebut rumah kaki seribu karena memiliki banyak sekali tiang penyangga. Umumnya Tiang-tiang penyangga rumah ini, diberi ukiran serta dilengkapi patung nenek moyang sebagai penghalau kekuatan jahat menurut adat dan kepercayaan masyarakat disana.</item>
+        <item>Rumah Honai terbuat dari kayu dengan atap berbentuk kerucut yang terbuat dari jerami atau ilalang. Honai sengaja dibangun sempit atau kecil dan tidak berjendela yang bertujuan untuk menahan hawa dingin pegunungan Papua. Honai biasanya dibangun setinggi 2,5 meter dan pada bagian tengah rumah disiapkan tempat untuk membuat api unggun untuk menghangatkan diri.</item>
     </string-array>
     <array name="gambar3">
         <item>@drawable/aceh4</item>

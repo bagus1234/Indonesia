@@ -10,6 +10,8 @@
     <string name="nav_item_senjata">Senjata</string>
     <string name="nav_item_pakaian">Pakaian</string>
     <string name="nav_item_rumah">Rumah Adat</string>
+    <string name="nav_item_about">Tentang</string>
+    <string name="nav_item_intro">Video Intro</string>
     <string name="nav_item_exit">Keluar</string>
     <!-- navigation drawer item labels  -->
     <string-array name="nav_drawer_labels">
@@ -18,6 +20,8 @@
         <item>@string/nav_item_senjata</item>
         <item>@string/nav_item_pakaian</item>
         <item>@string/nav_item_rumah</item>
+        <item>@string/nav_item_about</item>
+        <item>@string/nav_item_intro</item>
         <item>@string/nav_item_exit</item>
     </string-array>
     <string name="title_home">Beranda</string>
@@ -25,6 +29,8 @@
     <string name="title_senjata">Senjata</string>
     <string name="title_pakaian">Pakaian</string>
     <string name="title_rumah">Rumah Adat</string>
+    <string name="title_about">Tentang</string>
+    <string name="title_intro">Video Intro</string>
     <string name="title_exit">Keluar</string>
 
     <!-- TODO: Remove or change this placeholder text -->

@@ -62,8 +62,8 @@ public class PakaianFragment extends Fragment implements PakaianAdapter.IPakaian
 
     private void fillData() {
         Resources resources = getResources();
-        String[] arJudul = resources.getStringArray(R.array.kota);
-        String[] arDeskripsi = resources.getStringArray(R.array.trailer_des1);
+        String[] arJudul = resources.getStringArray(R.array.trailer_des1);
+        String[] arDeskripsi = resources.getStringArray(R.array.kota);
         String[] arDetail = resources.getStringArray(R.array.deskripsi1);
         TypedArray a = resources.obtainTypedArray(R.array.gambar1);
         String[] arFoto = new String[a.length()];

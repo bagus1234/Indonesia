@@ -63,8 +63,8 @@ public class TariFragment extends Fragment implements TariAdapater.ITariAdapter 
 
     private void fillData() {
         Resources resources = getResources();
-        String[] arJudul = resources.getStringArray(R.array.kota);
-        String[] arDeskripsi = resources.getStringArray(R.array.trailer_des);
+        String[] arJudul = resources.getStringArray(R.array.trailer_des);
+        String[] arDeskripsi = resources.getStringArray(R.array.kota);
         String[] arDetail = resources.getStringArray(R.array.deskripsi);
         TypedArray a = resources.obtainTypedArray(R.array.gambar);
         String[] arFoto = new String[a.length()];

@@ -279,40 +279,40 @@
     --- Rumah --
 
     <string-array name="trailer_des3">
-        <item>Rumah Adat Tradisional Krong Bade </item>
-        <item>Rumah Adat Tradisional Bolon</item>
-        <item>Rumah Adat Tradisional Gadang</item>
-        <item>Rumah Adat Tradisional Selaso Jatuh Kembar</item>
-        <item>Rumah Adat Tradisional Belah bubung</item>
-        <item>Rumah Adat Tradisional Panggung Kajang Leko</item>
-        <item>Rumah Adat Tradisional Limas</item>
-        <item>Rumah Adat Tradisional Rakit Limas</item>
-        <item>Rumah Adat Tradisional Adat Rakyat</item>
-        <item>Rumah Adat Tradisional Nowou Sesat</item>
-        <item>Rumah Adat Tradisional Kebaya</item>
-        <item>Rumah Adat Tradisional Adat Sunda</item>
-        <item>Rumah Adat Tradisional Badui</item>
-        <item>Rumah Adat Tradisional Joglo</item>
-        <item>Rumah Adat Tradisional Bangsal Kencono</item>
-        <item>Rumah Adat Tradisional Joglo</item>
-        <item>Rumah Adat Tradisional Gapura Candi Bentar</item>
-        <item>Rumah Adat Tradisional Dalam Loka</item>
-        <item>Rumah Adat Tradisional Musalaki</item>
-        <item>Rumah Adat Tradisional Baloy</item>
-        <item>Rumah Adat Tradisional Panjang</item>
-        <item>Rumah Adat Tradisional Betang</item>
-        <item>Rumah Adat Tradisional Bubungan Tinggi</item>
-        <item>Rumah Adat Tradisional Lamin</item>
-        <item>Rumah Adat Tradisional Pewaris</item>
-        <item>Rumah Adat Tradisional Mandar</item>
-        <item>Rumah Adat Tradisional Tambi</item>
-        <item>Rumah Adat Tradisional Buton</item>
-        <item>Rumah Adat Tradisional Tongkonan</item>
-        <item>Rumah Adat Tradisional Dulohupa</item>
-        <item>Rumah Adat Tradisional Baileo</item>
-        <item>Rumah Adat Tradisional Sasadu</item>
-        <item>Rumah Adat Tradisional Mod Aki Aksa</item>
-        <item>Rumah Adat Tradisional Honai</item>
+        <item>Rumah Krong Bade </item>
+        <item>Rumah Bolon</item>
+        <item>Rumah Gadang</item>
+        <item>Rumah Selaso Jatuh Kembar</item>
+        <item>Rumah Belah bubung</item>
+        <item>Rumah Panggung Kajang Leko</item>
+        <item>Rumah Limas</item>
+        <item>Rumah Rakit Limas</item>
+        <item>Rumah Adat Rakyat</item>
+        <item>Rumah Nowou Sesat</item>
+        <item>Rumah Kebaya</item>
+        <item>Rumah Adat Sunda</item>
+        <item>Rumah Badui</item>
+        <item>Rumah Joglo</item>
+        <item>Rumah Bangsal Kencono</item>
+        <item>Rumah Joglo</item>
+        <item>Rumah Gapura Candi Bentar</item>
+        <item>Rumah Dalam Loka</item>
+        <item>Rumah Musalaki</item>
+        <item>Rumah Baloy</item>
+        <item>Rumah Panjang</item>
+        <item>Rumah Betang</item>
+        <item>Rumah Bubungan Tinggi</item>
+        <item>Rumah Lamin</item>
+        <item>Rumah Pewaris</item>
+        <item>Rumah Mandar</item>
+        <item>Rumah Tambi</item>
+        <item>Rumah Buton</item>
+        <item>Rumah Tongkonan</item>
+        <item>Rumah Dulohupa</item>
+        <item>Rumah Baileo</item>
+        <item>Rumah Sasadu</item>
+        <item>Rumah Mod Aki Aksa</item>
+        <item>Rumah Honai</item>
     </string-array>
     <string-array name="deskripsi3">
         <item>Rumah Krong Bade atau rumoh Aceh merupakan jenis rumah adat panggung. Ciri tersebut terlihat dari adanya sebuah tangga depan untuk masuk dan keluar rumah. Di Aceh sendiri hanya terdaat beberapa kepala keluarga yang masih bertahan dengan rumah adat krong bade. Alasannya karena biaya pembuatan rumah adat ini tergolong mahal. Sehingga banyak yang lebih memilih rumah modern minimalis yang lebih terjangkau.</item>
@@ -426,40 +426,40 @@
         <item>Papua</item>
     </string-array>
     <string-array name="trailer_des4">
-        <item>Senjata Tradisional Rencong</item>
-        <item>Senjata Tradisional Piso Gaja Dompak</item>
-        <item>Senjata Tradisional Karih</item>
-        <item>Senjata Tradisional Pedang Jenawi</item>
-        <item>Senjata Tradisional Pedang Jenawi</item>
-        <item>Senjata Tradisional Badik Tumbuk Lada</item>
-        <item>Senjata Tradisional Tombak Trisula</item>
-        <item>Senjata Tradisional Siwar Panjang</item>
-        <item>Senjata Tradisional Rambai Ayam</item>
-        <item>Senjata Tradisional Terapang</item>
-        <item>Senjata Tradisional Golok</item>
-        <item>Senjata Tradisional Kujang</item>
-        <item>Senjata Tradisional Golok Ciomas</item>
-        <item>Senjata Tradisional Keris</item>
-        <item>Senjata Tradisional Keris jogja</item>
-        <item>Senjata Tradisional Celurit</item>
-        <item>Senjata Tradisional Keris</item>
-        <item>Senjata Tradisional Sampari</item>
-        <item>Senjata Tradisional Sundu</item>
-        <item>Senjata Tradisional Mandau</item>
-        <item>Senjata Tradisional Mandau Tangkitn</item>
-        <item>Senjata Tradisional Sumpit</item>
-        <item>Senjata Tradisional Sungga</item>
-        <item>Senjata Tradisional Mandau</item>
-        <item>Senjata Tradisional Pedang Bara Sangihe</item>
-        <item>Senjata Tradisional Badik</item>
-        <item>Senjata Tradisional Pasatimpo</item>
-        <item>Senjata Tradisional Keris</item>
-        <item>Senjata Tradisional Badik</item>
-        <item>Senjata Tradisional Wamilo</item>
-        <item>Senjata Tradisional Kalawai</item>
-        <item>Senjata Tradisional Parang Salawaku</item>
-        <item>Senjata Tradisional Busur Dan Panah</item>
-        <item>Senjata Tradisional Pisau Belati</item>
+        <item>Senjata Rencong</item>
+        <item>Senjata Piso Gaja Dompak</item>
+        <item>Senjata Karih</item>
+        <item>Senjata Pedang Jenawi</item>
+        <item>Senjata Pedang Jenawi</item>
+        <item>Senjata Badik Tumbuk Lada</item>
+        <item>Senjata Tombak Trisula</item>
+        <item>Senjata Siwar Panjang</item>
+        <item>Senjata Rambai Ayam</item>
+        <item>Senjata Terapang</item>
+        <item>Senjata Golok</item>
+        <item>Senjata Kujang</item>
+        <item>Senjata Golok Ciomas</item>
+        <item>Senjata Keris</item>
+        <item>Senjata Keris jogja</item>
+        <item>Senjata Celurit</item>
+        <item>Senjata Keris</item>
+        <item>Senjata Sampari</item>
+        <item>Senjata Sundu</item>
+        <item>Senjata Mandau</item>
+        <item>Senjata Mandau Tangkitn</item>
+        <item>Senjata Sumpit</item>
+        <item>Senjata Sungga</item>
+        <item>Senjata Mandau</item>
+        <item>Senjata Pedang Bara Sangihe</item>
+        <item>Senjata Badik</item>
+        <item>Senjata Pasatimpo</item>
+        <item>Senjata Keris</item>
+        <item>Senjata Badik</item>
+        <item>Senjata Wamilo</item>
+        <item>Senjata Kalawai</item>
+        <item>Senjata Parang Salawaku</item>
+        <item>Senjata Busur Dan Panah</item>
+        <item>Senjata Pisau Belati</item>
     </string-array>
     <string-array name="deskripsi4">
         <item>Senjata tradisional Aceh bernama Rencong atau dalam bahasa setempat disebut Rintjong. Rencong adalah sebilah pedang pendek dengan gagang atau pegangan yang dibuat melengkung 90 derajat. Senjata tradisional ini telah ada semenjak masa Kesultanan Aceh pada kepemimpinan sultan pertamanya yakni Sultan Ali Mughayat Syah. Dahulunya rencong digunakan sebagai alat perlindungan diri bagi para pria bangsawan. Namun, kini ia lebih berfungsi sebagai pelengkap hiasan pakaian adat Aceh Ulee Balang. Karena kepopuleran Rencong, terkadang masyarakat dunia bahkan sampai menjuluki Aceh dengan sebutan "Tanah Rencong"</item>

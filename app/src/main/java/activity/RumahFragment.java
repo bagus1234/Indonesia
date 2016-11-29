@@ -62,8 +62,8 @@ public class RumahFragment extends Fragment implements RumahAdapter.IRumahAdapte
 
     private void filldata() {
         Resources resources = getResources();
-        String[] arJudul = resources.getStringArray(R.array.kota);
-        String[] arDeskripsi = resources.getStringArray(R.array.trailer_des3);
+        String[] arJudul = resources.getStringArray(R.array.trailer_des3);
+        String[] arDeskripsi = resources.getStringArray(R.array.kota);
         String[] arDetail = resources.getStringArray(R.array.deskripsi3);
         TypedArray a = resources.obtainTypedArray(R.array.gambar3);
         String[] arFoto = new String[a.length()];

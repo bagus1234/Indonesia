@@ -63,8 +63,8 @@ public class SenjataFragment extends Fragment implements SenjataAdapter.ISenjata
 
     private void fillData() {
         Resources resources = getResources();
-        String[] arJudul = resources.getStringArray(R.array.kota);
-        String[] arDeskripsi = resources.getStringArray(R.array.trailer_des4);
+        String[] arJudul = resources.getStringArray(R.array.trailer_des4);
+        String[] arDeskripsi = resources.getStringArray(R.array.kota);
         String[] arDetail = resources.getStringArray(R.array.deskripsi4);
         TypedArray a = resources.obtainTypedArray(R.array.gambar4);
         String[] arFoto = new String[a.length()];

@@ -10,7 +10,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
-import android.widget.Toast;
 
 import id.sch.smktelkom_mlg.project.xiirpl207172737.indonesia.R;
 
@@ -100,25 +99,21 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
             case R.id.imageButton:
                 fragment = new RumahFragment();
                 title = getString(R.string.title_rumah);
-                Toast.makeText(activity, "Anda berada di tampilan rumah adat", Toast.LENGTH_SHORT).show();
                 break;
 
             case R.id.imageButton2:
                 fragment = new TariFragment();
                 title = getString(R.string.title_tari);
-                Toast.makeText(activity, "Anda berada di tampilan tari daerah", Toast.LENGTH_SHORT).show();
                 break;
 
             case R.id.imageButton3:
                 fragment = new PakaianFragment();
                 title = getString(R.string.title_pakaian);
-                Toast.makeText(activity, "Anda berada di tampilan pakaian adat", Toast.LENGTH_SHORT).show();
                 break;
 
             case R.id.imageButton4:
                 fragment = new SenjataFragment();
                 title = getString(R.string.title_senjata);
-                Toast.makeText(activity, "Anda berada di tampilan senjata daerah", Toast.LENGTH_SHORT).show();
                 break;
         }
 
@@ -140,6 +135,5 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
     public void onDetach() {
         super.onDetach();
     }
-
 
 }

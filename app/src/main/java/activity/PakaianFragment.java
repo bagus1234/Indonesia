@@ -8,9 +8,14 @@ import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.view.MenuItemCompat;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.SearchView;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
@@ -27,6 +32,11 @@ import model.Pakaian;
 public class PakaianFragment extends Fragment implements PakaianAdapter.IPakaianAdapter {
     public static final String PAKAIAN = "pakaian";
     ArrayList<Pakaian> mList = new ArrayList<>();
+    ArrayList<Pakaian> mListAll = new ArrayList<>();
+    boolean isFiltered;
+    String mQuery;
+    ArrayList<Integer> mListMapFilter = new ArrayList<>();
+
     PakaianAdapter mAdapter;
     View view;
     Context context;
@@ -39,6 +49,7 @@ public class PakaianFragment extends Fragment implements PakaianAdapter.IPakaian
     public void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
+        setHasOptionsMenu(true);
     }
 
     @Override
@@ -99,5 +110,54 @@ public class PakaianFragment extends Fragment implements PakaianAdapter.IPakaian
         Intent intent = new Intent(getActivity(), detailpakaianActivity.class);
         intent.putExtra(PAKAIAN, mList.get(pos));
         startActivity(intent);
+    }
+
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        inflater.inflate(R.menu.menu_main, menu);
+        super.onCreateOptionsMenu(menu, inflater);
+
+        MenuItem searchItem = menu.findItem(R.id.action_search);
+        SearchView searchView = (SearchView) MenuItemCompat.getActionView(searchItem);
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                mQuery = newText.toLowerCase();
+                doFilter(mQuery);
+                return true;
+
+            }
+        });
+
+
+    }
+
+    private void doFilter(String query) {
+        if (!isFiltered) {
+            mListAll.clear();
+            mListAll.addAll(mList);
+            isFiltered = true;
+        }
+        mList.clear();
+        if (query == null || query.isEmpty()) {
+            mList.addAll(mListAll);
+            isFiltered = false;
+        } else {
+            mListMapFilter.clear();
+            for (int i = 0; i < mListAll.size(); i++) {
+                Pakaian pakaian = mListAll.get(i);
+                if (pakaian.judul.toLowerCase().contains(query) ||
+                        pakaian.deskripsi.toLowerCase().contains(query)) {
+                    mList.add(pakaian);
+                    mListMapFilter.add(i);
+                }
+            }
+        }
+        mAdapter.notifyDataSetChanged();
     }
 }

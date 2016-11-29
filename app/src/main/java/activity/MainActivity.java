@@ -10,7 +10,6 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
@@ -49,14 +48,14 @@ public class MainActivity extends ActionBarActivity implements FragmentDrawer.Fr
     }
 
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-
-
-        return true;
-    }
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//        // Inflate the menu; this adds items to the action bar if it is present.
+//        getMenuInflater().inflate(R.menu.menu_main, menu);
+//
+//
+//        return true;
+//    }
 
     @Override
     public void onBackPressed() {
@@ -108,32 +107,39 @@ public class MainActivity extends ActionBarActivity implements FragmentDrawer.Fr
             case 0:
                 isOnMenu = true;
                 fragment = new HomeFragment();
-                title = getString(R.string.title_home);
                 Toast.makeText(getApplicationContext(), "Anda berada di tampilan Beranda", Toast.LENGTH_SHORT).show();
                 break;
             case 1:
                 fragment = new TariFragment();
-                title = getString(R.string.title_tari);
                 Toast.makeText(getApplicationContext(), "Anda berada di tampilan tari daerah", Toast.LENGTH_SHORT).show();
                 break;
             case 2:
                 fragment = new SenjataFragment();
                 title = getString(R.string.title_senjata);
-                Toast.makeText(getApplicationContext(), "Anda berada di tampilan senjata daerah", Toast.LENGTH_SHORT).show();
                 break;
 
             case 3:
                 fragment = new PakaianFragment();
                 title = getString(R.string.title_pakaian);
-                Toast.makeText(getApplicationContext(), "Anda berada di tampilan pakaian adat", Toast.LENGTH_SHORT).show();
                 break;
 
             case 4:
                 fragment = new RumahFragment();
                 title = getString(R.string.title_rumah);
-                Toast.makeText(getApplicationContext(), "Anda berada di tampilan rumah adat", Toast.LENGTH_SHORT).show();
                 break;
             case 5:
+                Intent intent = new Intent(MainActivity.this, about.class);
+                startActivity(intent);
+                title = getString(R.string.title_about);
+                break;
+
+            case 6:
+                Intent intent1 = new Intent(MainActivity.this, introscreen.class);
+                startActivity(intent1);
+                title = getString(R.string.title_intro);
+                break;
+
+            case 7:
                 title = getString(R.string.title_exit);
                 AlertDialog.Builder builder = new AlertDialog.Builder(this);
                 builder.setMessage("Apakah Anda Yakin Ingin Keluar?")

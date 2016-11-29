@@ -9,9 +9,14 @@ import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
+import android.support.v4.view.MenuItemCompat;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.SearchView;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
@@ -28,10 +33,14 @@ import model.Tari;
 public class TariFragment extends Fragment implements TariAdapater.ITariAdapter {
     public static final String TARI = "tari";
     ArrayList<Tari> mList = new ArrayList<>();
+    ArrayList<Tari> mListAll = new ArrayList<>();
+    boolean isFiltered;
+    ArrayList<Integer> mListMapFilter = new ArrayList<>();
     TariAdapater mAdapter;
     View view;
     Context context;
     FragmentActivity activity;
+    String mQuery;
 
     public TariFragment() {
         // Required empty public constructor
@@ -40,6 +49,8 @@ public class TariFragment extends Fragment implements TariAdapater.ITariAdapter 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        setHasOptionsMenu(true);
     }
 
     @Override
@@ -99,5 +110,54 @@ public class TariFragment extends Fragment implements TariAdapater.ITariAdapter 
         Intent intent = new Intent(getActivity(), DetailActivity.class);
         intent.putExtra(TARI, mList.get(pos));
         startActivity(intent);
+    }
+
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        inflater.inflate(R.menu.menu_main, menu);
+        super.onCreateOptionsMenu(menu, inflater);
+
+        MenuItem searchItem = menu.findItem(R.id.action_search);
+        SearchView searchView = (SearchView) MenuItemCompat.getActionView(searchItem);
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                mQuery = newText.toLowerCase();
+                doFilter(mQuery);
+                return true;
+
+            }
+        });
+
+
+    }
+
+    private void doFilter(String query) {
+        if (!isFiltered) {
+            mListAll.clear();
+            mListAll.addAll(mList);
+            isFiltered = true;
+        }
+        mList.clear();
+        if (query == null || query.isEmpty()) {
+            mList.addAll(mListAll);
+            isFiltered = false;
+        } else {
+            mListMapFilter.clear();
+            for (int i = 0; i < mListAll.size(); i++) {
+                Tari tari = mListAll.get(i);
+                if (tari.judul.toLowerCase().contains(query) ||
+                        tari.deskripsi.toLowerCase().contains(query)) {
+                    mList.add(tari);
+                    mListMapFilter.add(i);
+                }
+            }
+        }
+        mAdapter.notifyDataSetChanged();
     }
 }

@@ -8,9 +8,14 @@ import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.view.MenuItemCompat;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.SearchView;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
@@ -28,6 +33,11 @@ import model.Senjata;
 public class SenjataFragment extends Fragment implements SenjataAdapter.ISenjataAdapter {
     public static final String SENJATA = "senjata";
     ArrayList<Senjata> mList = new ArrayList<>();
+    ArrayList<Senjata> mListAll = new ArrayList<>();
+    boolean isFiltered;
+    String mQuery;
+    ArrayList<Integer> mListMapFilter = new ArrayList<>();
+
     SenjataAdapter mAdapter;
     View view;
     Context context;
@@ -39,6 +49,8 @@ public class SenjataFragment extends Fragment implements SenjataAdapter.ISenjata
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        setHasOptionsMenu(true);
 
     }
 
@@ -98,6 +110,55 @@ public class SenjataFragment extends Fragment implements SenjataAdapter.ISenjata
         Intent intent = new Intent(getActivity(), DetailSenjataActivity.class);
         intent.putExtra(SENJATA, mList.get(pos));
         startActivity(intent);
+    }
+
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        inflater.inflate(R.menu.menu_main, menu);
+        super.onCreateOptionsMenu(menu, inflater);
+
+        MenuItem searchItem = menu.findItem(R.id.action_search);
+        SearchView searchView = (SearchView) MenuItemCompat.getActionView(searchItem);
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                mQuery = newText.toLowerCase();
+                doFilter(mQuery);
+                return true;
+
+            }
+        });
+
+
+    }
+
+    private void doFilter(String query) {
+        if (!isFiltered) {
+            mListAll.clear();
+            mListAll.addAll(mList);
+            isFiltered = true;
+        }
+        mList.clear();
+        if (query == null || query.isEmpty()) {
+            mList.addAll(mListAll);
+            isFiltered = false;
+        } else {
+            mListMapFilter.clear();
+            for (int i = 0; i < mListAll.size(); i++) {
+                Senjata senjata = mListAll.get(i);
+                if (senjata.judul.toLowerCase().contains(query) ||
+                        senjata.deskripsi.toLowerCase().contains(query)) {
+                    mList.add(senjata);
+                    mListMapFilter.add(i);
+                }
+            }
+        }
+        mAdapter.notifyDataSetChanged();
     }
 }
 

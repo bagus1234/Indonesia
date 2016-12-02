@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/MyMaterialTheme">
         <activity
-            android:name="activity.introscreen"
+            android:name="activity.WelcomeActivity"
             android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,6 +19,7 @@
         </activity>
         <activity android:name="activity.MainActivity" />
         <activity android:name="activity.about" />
+        <activity android:name="activity.introscreen" />
         <activity
             android:name=".DetailActivity"
             android:label="@string/title_activity_detail"
@@ -34,7 +35,8 @@
         <activity
             android:name=".DetailSenjataActivity"
             android:label="@string/title_activity_detail_senjata"
-            android:theme="@style/MyMaterialTheme"></activity>
+            android:theme="@style/MyMaterialTheme" />
+        <activity android:name=".Intro" />
     </application>
 
 </manifest>

@@ -12,7 +12,6 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Toast;
 
 import id.sch.smktelkom_mlg.project.xiirpl207172737.indonesia.R;
 
@@ -86,7 +85,6 @@ public class MainActivity extends ActionBarActivity implements FragmentDrawer.Fr
         }
 
         if (id == R.id.action_search) {
-            Toast.makeText(getApplicationContext(), "Search on process!", Toast.LENGTH_SHORT).show();
             return true;
         }
 
@@ -107,11 +105,9 @@ public class MainActivity extends ActionBarActivity implements FragmentDrawer.Fr
             case 0:
                 isOnMenu = true;
                 fragment = new HomeFragment();
-                Toast.makeText(getApplicationContext(), "Anda berada di tampilan Beranda", Toast.LENGTH_SHORT).show();
                 break;
             case 1:
                 fragment = new TariFragment();
-                Toast.makeText(getApplicationContext(), "Anda berada di tampilan tari daerah", Toast.LENGTH_SHORT).show();
                 break;
             case 2:
                 fragment = new SenjataFragment();

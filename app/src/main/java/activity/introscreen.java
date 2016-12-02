@@ -1,6 +1,5 @@
 package activity;
 
-import android.content.Intent;
 import android.graphics.PixelFormat;
 import android.net.Uri;
 import android.os.Bundle;
@@ -36,8 +35,7 @@ public class introscreen extends AppCompatActivity {
         btn5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0) {
-                Intent pindah = new Intent(introscreen.this, MainActivity.class);
-                startActivity(pindah);
+                onBackPressed();
             }
         });
 

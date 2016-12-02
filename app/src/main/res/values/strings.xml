@@ -37,6 +37,27 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_detail">DetailActivity</string>
     <string name="large_text">
+        <string name="next">SELANJUTNYA</string>
+    <string name="skip">LEWATI</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Pakaian Adat</string>
+    <string name="slide_1_desc">Pakaian Adat seluruh Indonesia</string>
+
+    <string name="slide_2_title">Rumah Adat</string>
+    <string name="slide_2_desc">Rumah Adat seluruh Indonesia</string>
+
+    <string name="slide_3_title">Senjata Tradisional</string>
+    <string name="slide_3_desc">Senjata Tradisional seluruh Indonesia</string>
+
+    <string name="slide_4_title">Tarian Adat</string>
+    <string name="slide_4_desc">Tarian Adat seluruh Indonesia</string>
+
+
+    <string name="slide_5_title">Jejak Si Lahang</string>
+    <string name="slide_5_desc">Aplkiasi mengenal Indonesia</string>
+
+
         "Material is the metaphor.\n\n"
 
         "A material metaphor is the unifying theory of a rationalized space and a system of motion."

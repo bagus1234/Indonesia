@@ -241,12 +241,12 @@
     <array name="gambar1">
         <item>@drawable/aceh2</item>
         <item>@drawable/sumut2</item>
-        <item>@drawable/sumbar2</item>
+        <item>@drawable/sumut2</item>
         <item>@drawable/riau2</item>
-        <item>@drawable/kepriau2</item>
+        <item>@drawable/riau2</item>
         <item>@drawable/jambi2</item>
         <item>@drawable/sumsel2</item>
-        <item>@drawable/bangbel2</item>
+        <item>@drawable/sumsel2</item>
         <item>@drawable/bengkulu2</item>
         <item>@drawable/lampung2</item>
         <item>@drawable/jkt2</item>
@@ -254,9 +254,9 @@
         <item>@drawable/banten2</item>
         <item>@drawable/jateng2</item>
         <item>@drawable/yogyakarta2</item>
-        <item>@drawable/jatim2</item>
+        <item>@drawable/yogyakarta2</item>
         <item>@drawable/bali2</item>
-        <item>@drawable/ntb2</item>
+        <item>@drawable/bali2</item>
         <item>@drawable/ntt2</item>
         <item>@drawable/kalutara2</item>
         <item>@drawable/kalbar2</item>
@@ -269,7 +269,7 @@
         <item>@drawable/sutenggara2</item>
         <item>@drawable/sulsel2</item>
         <item>@drawable/gorontalo2</item>
-        <item>@drawable/adat_maluku2</item>
+        <item>@drawable/gorontalo2</item>
         <item>@drawable/malukuutara2</item>
         <item>@drawable/papuabarat2</item>
         <item>@drawable/papua2</item>

@@ -10,17 +10,20 @@ mengenai Rumah adat,Tarian daerah, Pakaian adat, dan senjata tradisional. Dengan
 mempermudah seseorang untuk mendapatkan informasi mengenai budaya indonesia.
 
 ##Screenshoot Aplikasi.
-![Introscreen](https://cloud.githubusercontent.com/assets/15699471/20464070/257555d2-af73-11e6-8950-b82b18c1281c.JPG)
-![](https://cloud.githubusercontent.com/assets/15699471/20464069/25751c7a-af73-11e6-8dc7-3b16d6c68216.JPG)
-![new2](https://cloud.githubusercontent.com/assets/15699471/20464072/27b7174a-af73-11e6-9f96-b9b5b7533544.JPG)
-![new3](https://cloud.githubusercontent.com/assets/15699471/20464071/27b3a830-af73-11e6-8a94-e96874160a7e.JPG)
-![beranda](https://cloud.githubusercontent.com/assets/21327058/20463597/8318fbd0-af69-11e6-98cd-cc1eb9393ff5.JPG)
-![detaiktari](https://cloud.githubusercontent.com/assets/21327058/20463598/87258a18-af69-11e6-8743-69e2fc9f0f28.JPG)
-![detailpakaian](https://cloud.githubusercontent.com/assets/21327058/20463600/8cfed552-af69-11e6-938c-14424f2d854e.JPG)
-![detailrumhadat](https://cloud.githubusercontent.com/assets/21327058/20463602/91e06216-af69-11e6-859a-ec5073298026.JPG)
-![home](https://cloud.githubusercontent.com/assets/21327058/20463605/9599264a-af69-11e6-81da-eafebbcc877d.JPG)
-![pakaian](https://cloud.githubusercontent.com/assets/21327058/20463606/9ae3503a-af69-11e6-88fb-4f742413b82e.JPG)
-
+![1](https://cloud.githubusercontent.com/assets/15699471/20858813/3f1e1b10-b980-11e6-9374-22dce5f21efb.png)
+![2](https://cloud.githubusercontent.com/assets/15699471/20858814/3f4abc74-b980-11e6-80f5-13d088bc4501.png)
+![3](https://cloud.githubusercontent.com/assets/15699471/20858815/3f4fc836-b980-11e6-916a-99147145bac2.png)
+![4](https://cloud.githubusercontent.com/assets/15699471/20858816/3f51afac-b980-11e6-9dc9-70a0744ae455.png)
+![5](https://cloud.githubusercontent.com/assets/15699471/20858817/3f51c6fe-b980-11e6-89b8-90a45c0d870b.png)
+![6](https://cloud.githubusercontent.com/assets/15699471/20858818/3f533598-b980-11e6-8cc5-bc6e0ad0b69a.png)
+![7](https://cloud.githubusercontent.com/assets/15699471/20858819/3f76efe2-b980-11e6-9725-b0ef29e5b0f3.png)
+![8](https://cloud.githubusercontent.com/assets/15699471/20858820/3f7f538a-b980-11e6-97c9-f0abb587ac07.png)
+![9](https://cloud.githubusercontent.com/assets/15699471/20858822/3f80c15c-b980-11e6-8b0c-af5df970ea07.png)
+![10](https://cloud.githubusercontent.com/assets/15699471/20858821/3f80a3a2-b980-11e6-90ba-c80e3c70ff39.png)
+![11](https://cloud.githubusercontent.com/assets/15699471/20858823/3f826b7e-b980-11e6-9bee-057534c19536.png)
+![12](https://cloud.githubusercontent.com/assets/15699471/20858824/3fa36892-b980-11e6-82ac-ebd5aba1e97b.png)
+![13](https://cloud.githubusercontent.com/assets/15699471/20858825/3fae0360-b980-11e6-8add-a5fc08d676e2.png)
+![14](https://cloud.githubusercontent.com/assets/15699471/20858826/3fb0442c-b980-11e6-8248-4d5e5e8ba59b.png)
 
 ##Video Aplikasi.
 https://www.youtube.com/watch?v=QrtvYkQClzs&feature=youtu.be

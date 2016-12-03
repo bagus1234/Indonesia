@@ -26,7 +26,9 @@ mempermudah seseorang untuk mendapatkan informasi mengenai budaya indonesia.
 ![14](https://cloud.githubusercontent.com/assets/15699471/20858826/3fb0442c-b980-11e6-8248-4d5e5e8ba59b.png)
 
 ##Video Aplikasi.
-https://www.youtube.com/watch?v=QrtvYkQClzs&feature=youtu.be
+<a href="https://www.youtube.com/watch?v=MEt4TDKPOR8
+" target="_blank"><img src="https://cloud.githubusercontent.com/assets/15699471/20858973/0c1edeb2-b984-11e6-92a0-7567c773d3b0.png" 
+alt="IMAGE ALT TEXT HERE" width="600" height="450" border="10" /></a>
 
 ##Link File Apk dari Aplikasi.
 https://drive.google.com/open?id=0B6S27B-0MutvREZmLXNfdDlHWFk

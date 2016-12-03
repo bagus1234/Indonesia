@@ -29,7 +29,7 @@ mempermudah seseorang untuk mendapatkan informasi mengenai budaya indonesia.
 https://www.youtube.com/watch?v=QrtvYkQClzs&feature=youtu.be
 
 ##Link File Apk dari Aplikasi.
-https://drive.google.com/open?id=0B6S27B-0MutvYzNCblF0bmhXaDA
+https://drive.google.com/open?id=0B6S27B-0MutvREZmLXNfdDlHWFk
 
 
 

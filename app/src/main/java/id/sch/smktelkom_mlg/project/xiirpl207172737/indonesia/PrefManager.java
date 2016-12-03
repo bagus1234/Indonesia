@@ -7,11 +7,11 @@ import android.content.SharedPreferences;
  * Created by User on 02/12/2016.
  */
 
-public class PrefManager
+public class PrefManager {
         // Shared preferences file name
         private static final String PREF_NAME = "androidhive-welcome";
         private static final String IS_FIRST_TIME_LAUNCH = "IsFirstTimeLaunch";
-{SharedPreferences pref;
+        SharedPreferences pref;
         SharedPreferences.Editor editor;
         Context _context;
         // shared pref mode

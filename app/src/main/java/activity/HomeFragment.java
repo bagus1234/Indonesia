@@ -1,7 +1,6 @@
 package activity;
 
 import android.app.Activity;
-import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -19,7 +18,6 @@ import id.sch.smktelkom_mlg.project.xiirpl207172737.indonesia.R;
 
 public class HomeFragment extends Fragment implements View.OnClickListener {
 
-    MediaPlayer mediaplayer;
     public HomeFragment() {
         // Required empty public constructor
 
@@ -47,41 +45,9 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         btn3.setOnClickListener(this);
         btn4.setOnClickListener(this);
 
-        mediaplayer = MediaPlayer.create(getActivity(), R.raw.selamat);
 
 
         return rootView;
-    }
-
-    @Override
-    public void onStart() {
-        super.onStart();
-    }
-
-    @Override
-    public void onResume() {
-        super.onResume();
-        mediaplayer.start();
-    }
-
-    @Override
-    public void onPause() {
-        super.onPause();
-        mediaplayer.pause();
-    }
-
-    @Override
-    public void onStop() {
-        super.onStop();
-    }
-
-
-    @Override
-    public void onDestroy() {
-        super.onDestroy();
-        if (mediaplayer != null)
-            mediaplayer.release();
-
     }
 
 

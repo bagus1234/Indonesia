@@ -9,10 +9,10 @@
 
 
     <color name="screen1">#C62828</color>
-    <color name="screen2">#7B1FA2</color>
-    <color name="screen3">#00C853</color>
-    <color name="screen4">#FFD600</color>
-    <color name="screen5">#37474F</color>
+    <color name="screen2">#880E4F</color>
+    <color name="screen3">#827717</color>
+    <color name="screen4">#004D40</color>
+    <color name="screen5">#006064</color>
 
     <color name="det_dark_screen1">#B71C1C</color>
     <color name="det_dark_screen2">#4A148C</color>
